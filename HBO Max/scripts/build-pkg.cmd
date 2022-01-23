@@ -1,1 +1,9 @@
-nativefier -n "HBO Max" "https://play.hbomax.com/" --verbose --tray "true" --enable-es3-apis --widevine --single-instance --conceal --background-color "#333333" --internal-urls ".*?" --user-agent firefox --icon "res/icon.ico"
+@echo off
+Set NAME=Hulu
+Set WEBSITE_URL=https://www.hbomax.com/
+Set BACKGROUND_COLOR=#333333
+Set INTERNAL_URLS=.*?
+Set ICON_PATH=res/icon.ico
+Set BASE_FOLDER=%PROGRAMFILES%\NativeApps
+Set SIGN_PATH="%PROGRAMFILES%\NativeApps\HBO Max-win32-x64"
+nativefier --verbose -n %NAME% "%WEBSITE_URL%" --tray --enable-es3-apis --widevine --single-instance --background-color "%BACKGROUND_COLOR%" --internal-urls "%INTERNAL_URLS%" --user-agent firefox --icon "%ICON_PATH%" "%BASE_FOLDER%" && python -m castlabs_evs.vmp sign-pkg --persistent %SIGN_PATH%

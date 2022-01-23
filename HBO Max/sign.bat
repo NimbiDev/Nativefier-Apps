@@ -1,3 +1,0 @@
-@echo off
-echo Requesting digital signature for playback of DRM enabled content... Please wait...
-"./scripts/sign-pkg.cmd" >>stdout.log 2>>stderr.log 1

@@ -1,1 +1,0 @@
-python -m castlabs_evs.vmp sign-pkg --persistent "./Disney Plus-win32-x64"
