@@ -10,15 +10,15 @@ Native Desktop App Scripts for use with Nativefier
  * **1**. Download and install the latest version of NodeJS from [NodeJS.org](https://nodejs.org/)
  * **2**. Download and install the latest version of python from [Python.org](https://python.org/)</a>
  * **3**. In Windows Command Prompt, type: 
- ```bash
+ ```sh
  git clone "https://github.com/DevCorner-Github/Nativefier-Apps.git" "%USERPROFILE%\Native-Apps"
  ```
  * **4**. In Windows Command Prompt type: 
- ```bash
+ ```sh
  python3 -m pip install --upgrade castlabs-evs
  ```
  * **5**. In Windows Command Prompt, type: 
- ```bash
+ ```sh
  python3 -m castlabs_evs.account signup
  ``` 
  and follow the prompts
