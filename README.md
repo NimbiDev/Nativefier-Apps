@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://www.developer-corner.xyz/">![Socket-Title](./docs/assets/Logo-Word.png)</a>
+<a href="https://www.developer-corner.xyz/">![](https://raw.githubusercontent.com/DevCorner-Github/DevCorner-Website/main/docs/assets/Logo-Word.png)</a>
 
 Nativefier Apps
 <br />
