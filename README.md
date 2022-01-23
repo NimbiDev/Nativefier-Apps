@@ -6,7 +6,7 @@ Nativefier Apps
 <br />
 Native Desktop App Scripts for use with Nativefier
 <br />
-<a href="https://docs.developer-corner.xyz/p/ABOUT_NATIVE_APPS.html">Instructions</a> ~ <a href="https://github.com/DevCorner-Github/.github/issues">Issues</a>
+<a href="https://docs.developer-corner.xyz/p/ABOUT_NATIVE_APPS.html">Instructions</a> | <a href="https://github.com/DevCorner-Github/.github/issues">Issues</a>
 <hr />
 Copyright © Developer Corner. All Rights Reserved
 </div>
