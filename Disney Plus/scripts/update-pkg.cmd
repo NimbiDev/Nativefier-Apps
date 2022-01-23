@@ -1,0 +1,1 @@
+nativefier --upgrade "./Disney Plus-win32-x64"

@@ -1,0 +1,20 @@
+{
+    "menuLabel": "&Support",
+    "bookmarks": [
+        {
+            "title": "Donate to Virtual Customs",
+            "url": "https://virtualcustoms.net/misc.php?do=donate",
+            "type": "link",
+            "shortcut": "CmdOrCtrl+0"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "title": "Support the Developer",
+            "url": "https://www.patreon.com/DevCorner",
+            "type": "link",
+            "shortcut": "CmdOrCtrl+1"
+        }
+    ]
+}

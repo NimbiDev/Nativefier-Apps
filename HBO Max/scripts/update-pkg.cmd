@@ -1,0 +1,1 @@
+nativefier --upgrade "./HBO Max-win32-x64"
