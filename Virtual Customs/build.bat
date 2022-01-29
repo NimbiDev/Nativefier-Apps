@@ -4,7 +4,7 @@ For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (Set mytime=%%a%%b)
 echo %mydate%_%mytime%
 cls & color 0A & echo.
 Mode con cols=60 lines=5
-Title Create a shortcut by using windows command line
+Title Native App Compiler
 :::::::::::::::::::::::::::::::::::::::::
 :: Automatically check & get admin rights
 :::::::::::::::::::::::::::::::::::::::::
