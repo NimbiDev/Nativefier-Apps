@@ -1,0 +1,2 @@
+@echo off
+nativefier --verbose -n "DeviantArt" "https://www.deviantart.com/" --tray --enable-es3-apis --background-color "#333333" --internal-urls "(.*?)(www\.deviantart\.com|sta\.sh|www\.deviantartsupport\.com)(.*?)" --user-agent firefox && copy "scripts\upgrade-pkg.cmd" "DeviantArt-win32-x64\upgrade-pkg.cmd"

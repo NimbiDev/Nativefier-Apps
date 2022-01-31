@@ -1,0 +1,2 @@
+@echo off
+nativefier --verbose -n "Webtoons" "https://www.webtoons.com/" --tray --enable-es3-apis --background-color "#333333" --internal-urls "(.*?)(accounts\.google\.com/ServiceLogin|api\.twitter\.com/ServiceLogin|access\.line\.me/ServiceLogin|www\.facebook\.com/ServiceLogin|appleid\.apple\.com/ServiceLogin|www\.webtoons\.com)(.*?)" --user-agent firefox && copy "scripts\upgrade-pkg.cmd" "Webtoons-win32-x64\upgrade-pkg.cmd"
