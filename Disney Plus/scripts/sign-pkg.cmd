@@ -1,2 +1,2 @@
 @echo off
-python -m castlabs_evs.vmp sign-pkg --persistent "./"
+python -m castlabs-evs.vmp sign-pkg --persistent "./"
