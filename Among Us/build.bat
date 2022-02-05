@@ -14,5 +14,5 @@ Echo.
 ECHO         ****************************************
 ECHO          Building native app... Please wait...
 ECHO         ****************************************
-nativefier -n "Disney Plus" "https://www.disneyplus.com/" -u firefox -e "15.3.5" --tray "true" --enable-es3-apis --widevine --verbose --internal-urls "(.*?)(\.disneyplus\.)(.*?)" --background-color "#333333" --file-download-options "{\"saveAs\": true}" --icon "bin\icon.ico" >> "%mydate%_%mytime%" 2>>& 1 && copy "bin\sign-pkg.cmd" "Disney Plus-win32-x64\sign-pkg.cmd" >> "%mydate%_%mytime%" 2>>& 1 && copy "bin\upgrade-pkg.cmd" "Disney Plus-win32-x64\upgrade-pkg.cmd" >> "%mydate%_%mytime%" 2>>& 1
+nativefier -n "Among Us" "https://now.gg/play/innersloth-llc/4047/among-us" -u firefox -e "15.3.5" --tray "true" --enable-es3-apis --verbose --background-color "#333333" --internal-urls ".*?" --file-download-options "{\"saveAs\": true}" --icon "bin\icon.ico" >> "%mydate%_%mytime%" 2>>& 1 && copy "bin\upgrade-pkg.cmd" "Among Us-win32-x64\upgrade-pkg.cmd" >> "%mydate%_%mytime%" 2>>& 1
 exit /b
