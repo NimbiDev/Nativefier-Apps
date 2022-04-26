@@ -10,7 +10,6 @@
  <hr />
  Copyright © Developer Corner. All Rights Reserved
  </div>
-<details>
  <h1>Instructions</h1>
  <p>Type the following commands in order into Windows Command Prompt to install the required dependecies and then follow the prompts:</p>
  
@@ -31,7 +30,6 @@
   - project_env\Scripts\activate.bat
   - pip castlabs_evs.vmp sign-pkg "apps/Netflix/netflix-win32-x64"
  ```
-
  
  <b>HBO Max:</b><br />
  ```
@@ -62,6 +60,4 @@
   - project_env\Scripts\activate.bat
   - pip castlabs_evs.vmp sign-pkg "apps/Spotify/spotify-win32-x64/"
  ```
- 
-</details>
 </div>
