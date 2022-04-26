@@ -15,10 +15,13 @@
  
  ```
   - winget install node.js
-  - winget install 9PJPW5LDXLZ5
-  - git clone https://github.com/DevCorner-Github/Nativefier-Apps.git
-  - cd Nativefier-Apps
   - npm i -g nativefier
+  - git clone https://github.com/DevCorner-Github/Nativefier-Apps.git
+```
+
+```
+  - winget install 9PJPW5LDXLZ5
+  - cd Nativefier-Apps
   - python3 -m venv project_env
   - pip install castlabs_evs
   - pip castlabs_evs.vmp signup
