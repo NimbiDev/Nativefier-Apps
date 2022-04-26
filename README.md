@@ -29,38 +29,38 @@
  <b>Netflix:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vpm sign-pkg "apps/Netflix/netflix-win32-x64"
+  - pip castlabs_evs.vmp sign-pkg "apps/Netflix/netflix-win32-x64"
  ```
 
  
  <b>HBO Max:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vpm sign-pkg "apps/HBO Max/hbomax-win32-x64/"
+  - pip castlabs_evs.vmp sign-pkg "apps/HBO Max/hbomax-win32-x64/"
  ```
 
  <b>Disney Plus:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vpm sign-pkg "apps/Dinsey Plus/disneyplus-win32-x64/"
+  - pip castlabs_evs.vmp sign-pkg "apps/Dinsey Plus/disneyplus-win32-x64/"
  ``` 
 
  <b>Hulu:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vpm sign-pkg "apps/Hulu/hulu-win32-x64/"
+  - pip castlabs_evs.vmp sign-pkg "apps/Hulu/hulu-win32-x64/"
  ```
  
  <b>Contour TV:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vpm sign-pkg "apps/Contour TV/contour-win32-x64/"
+  - pip castlabs_evs.vmp sign-pkg "apps/Contour TV/contour-win32-x64/"
  ```
  
  <b>Spotify:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vpm sign-pkg "apps/Spotify/spotify-win32-x64/"
+  - pip castlabs_evs.vmp sign-pkg "apps/Spotify/spotify-win32-x64/"
  ```
  
 </details>
