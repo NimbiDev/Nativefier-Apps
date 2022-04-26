@@ -11,22 +11,104 @@
  Copyright © Developer Corner. All Rights Reserved
  </div>
  <h1>Instructions</h1>
- <p>Type the following commands in order into Windows Command Prompt to install the required dependecies and then follow the prompts:</p>
  
+ <h2>Step 1: Installing your apps</h2>
+ <p>Type the following commands in order into Windows Command Prompt to install your native apps:</p>
+ 
+ - <p>First install the dependencies</p>
  ```
   - winget install node.js
   - npm i -g nativefier
   - git clone https://github.com/DevCorner-Github/Nativefier-Apps.git
 ```
 
+ - <p>Then install your native apps</p>
+
+<b>Netflix:</b>
 ```
+cd "Nativefier-Apps\apps\Netflix"
+build.bat
+```
+
+<b>Hulu:</b>
+```
+cd "Nativefier-Apps\apps\Hulu"
+build.bat
+```
+
+<b>HBO Max:</b>
+```
+cd "Nativefier-Apps\apps\HBO Max"
+build.bat
+```
+
+<b>Dinsye Plus:</b>
+```
+cd "Nativefier-Apps\apps\Dinsye Plus"
+build.bat
+```
+
+<b>Contour TV:</b>
+```
+cd "Nativefier-Apps\apps\Contour TV"
+build.bat
+```
+
+<b>Spotify:</b>
+```
+cd "Nativefier-Apps\apps\Spotify"
+build.bat
+```
+
+<b>YouTube:</b>
+```
+cd "Nativefier-Apps\apps\YouTube"
+build.bat
+```
+
+<b>DeviantArt:</b>
+```
+cd "Nativefier-Apps\apps\DeviantArt"
+build.bat
+```
+
+<b>Webtoons:</b>
+```
+cd "Nativefier-Apps\apps\Webtoons"
+build.bat
+```
+
+<b>All Bad Cards:</b>
+```
+cd "Nativefier-Apps\apps\All Bad Cards"
+build.bat
+```
+
+<b>Among Us:</b>
+```
+cd "Nativefier-Apps\apps\Among Us"
+build.bat
+```
+
+<b>Google Stadia:</b> (Note: This one doesn't work yet. It is currently a W.I.P and we are working out some kinks with google's browser check.)
+```
+cd "Nativefier-Apps\apps\Google Stadia"
+build.bat
+```
+
+<h2>Step 2: Digitally signing your DRM Enabled Apps</h2>
+Next to make the DRM Enabled apps work properly, you need to digitally sign them. To do that use the following command(s):</p>
+
+ - <p> First install the dependencies</p>
+ ```
   - winget install 9PJPW5LDXLZ5
   - cd Nativefier-Apps
   - python3 -m venv project_env
   - pip install castlabs_evs
   - pip castlabs_evs.vmp signup
-```
-<p>Next to make the DRM Enabled apps work properly, you need to digitally sign them. To do that use the following command(s):</p>
+ ```
+
+ - <p>Then sign the apps:</p>
 
  <b>Netflix:</b><br />
  ```
