@@ -42,8 +42,8 @@
  <h2>Instructions</h2>
  
  <h2>Step 1: Installing your apps</h2>
- <p>Type the following commands in order into Windows Command Prompt to install your native apps:</p>
- 
+
+
  - <p>First install the dependencies</p>
  ```bat
   - winget install node.js
@@ -59,9 +59,10 @@
 
 ```
 
- - <p>Double click the <code>app-menu.bat</code> file and select the app you want to build</p>
+ - <p>Finally, double click the <code>app-menu.bat</code> file and select the app you want to build</p>
  
  <h2>Step 2: Enabling DRM Playback</h2>
+
  <p>For the following apps you will need to double click the <code>sign-app.bat</code> file and select an app to sign to enable playback of DRM protected content.</p>
  
   * Netflix
