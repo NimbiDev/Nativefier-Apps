@@ -4,6 +4,7 @@ Set website_url=https://www.primevideo.com/
 Set user_agent=firefox
 Set electron="15.3.5"
 Set download_options="{\"saveAs\": true}"
+Set ico_file="bin\icon.ico"
 Set internal_urls=".*?"
 Set enable_tray="true"
 Set background_color="#333333"
@@ -26,5 +27,5 @@ Echo.
 ECHO         ****************************************
 ECHO                   Building %app_name%
 ECHO         ****************************************
-npx nativefier -e %electron% -u %user_agent% -n "%app_name%" "%website_url%" --ignore-gpu-blacklist --single-instance --widevine --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --file-download-options %download_options% >>%debug% 2>>&1
+npx nativefier -e %electron% -u %user_agent% -n "%app_name%" "%website_url%" --ignore-gpu-blacklist --single-instance --widevine --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --file-download-options %download_options% --icon %ico_file% >>%debug% 2>>&1
 exit /b
