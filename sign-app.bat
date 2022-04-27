@@ -25,31 +25,31 @@ IF %M%==f GOTO PRIME-VIDEO
 IF %M%==g GOTO SPOTIFY-WEB-PLAYER
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
-cd %systemdrive%\Native-Apps\.apps\netflix
+cd %systemdrive%\Native-Apps\apps\netflix
 start sign.bat
 GOTO MENU
 :HULU
-cd %systemdrive%\Native-Apps\.apps\hulu
+cd %systemdrive%\Native-Apps\apps\hulu
 start sign.bat
 GOTO MENU
 :HBO-MAX
-cd %systemdrive%\Native-Apps\.apps\hbo-max
+cd %systemdrive%\Native-Apps\apps\hbo-max
 start sign.bat
 GOTO MENU
 :DISNEY-PLUS
-cd %systemdrive%\Native-Apps\.apps\disney-plus
+cd %systemdrive%\Native-Apps\apps\disney-plus
 start sign.bat
 GOTO MENU
 :AMAZON-MUSIC
-cd %systemdrive%\Native-Apps\.apps\amazon-music
+cd %systemdrive%\Native-Apps\apps\amazon-music
 start sign.bat
 GOTO MENU
 :PRIME-VIDEO
-cd %systemdrive%\Native-Apps\.apps\prime-video
+cd %systemdrive%\Native-Apps\apps\prime-video
 start sign.bat
 GOTO MENU
 :SPOTIFY-WEB-PLAYER
-cd %systemdrive%\Native-Apps\.apps\spotify-web-playerstart
+cd %systemdrive%\Native-Apps\apps\spotify-web-playerstart
 start sign.bat
 GOTO MENU
 :EXIT-MENU

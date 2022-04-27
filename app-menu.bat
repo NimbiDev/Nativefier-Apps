@@ -39,59 +39,59 @@ IF %M%==m GOTO ALL-BAD-CARDS
 IF %M%==n GOTO AMONG-US
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
-cd %systemdrive%\Native-Apps\.apps\netflix
+cd %systemdrive%\Native-Apps\apps\netflix
 start build.bat
 GOTO MENU
 :HULU
-cd %systemdrive%\Native-Apps\.apps\hulu
+cd %systemdrive%\Native-Apps\apps\hulu
 start build.bat
 GOTO MENU
 :HBO-MAX
-cd %systemdrive%\Native-Apps\.apps\hbo-max
+cd %systemdrive%\Native-Apps\apps\hbo-max
 start build.bat
 GOTO MENU
 :DISNEY-PLUS
-cd %systemdrive%\Native-Apps\.apps\disney-plus
+cd %systemdrive%\Native-Apps\apps\disney-plus
 start build.bat
 GOTO MENU
 :AMAZON-MUSIC
-cd %systemdrive%\Native-Apps\.apps\amazon-music
+cd %systemdrive%\Native-Apps\apps\amazon-music
 start build.bat
 GOTO MENU
 :PRIME-VIDEO
-cd %systemdrive%\Native-Apps\.apps\prime-video
+cd %systemdrive%\Native-Apps\apps\prime-video
 start build.bat
 GOTO MENU
 :SPOTIFY-WEB-PLAYER
-cd %systemdrive%\Native-Apps\.apps\spotify-web-player
+cd %systemdrive%\Native-Apps\apps\spotify-web-player
 start build.bat
 GOTO MENU
 :DEVIANTART
-cd %systemdrive%\Native-Apps\.apps\deviantart
+cd %systemdrive%\Native-Apps\apps\deviantart
 start build.bat
 GOTO MENU
 :VIRTUAL-CUSTOMS
-cd %systemdrive%\Native-Apps\.apps\virtual-customs
+cd %systemdrive%\Native-Apps\apps\virtual-customs
 start build.bat
 GOTO MENU
 :PORNHUB
-cd %systemdrive%\Native-Apps\.apps\pornhub
+cd %systemdrive%\Native-Apps\apps\pornhub
 start build.bat
 GOTO MENU
 :NHENTAI-NET
-cd %systemdrive%\Native-Apps\.apps\nhentai-net
+cd %systemdrive%\Native-Apps\apps\nhentai-net
 start build.bat
 GOTO MENU
 :HANIME-TV
-cd %systemdrive%\Native-Apps\.apps\hanime-tv
+cd %systemdrive%\Native-Apps\apps\hanime-tv
 start build.bat
 GOTO MENU
 :ALL-BAD-CARDS
-cd %systemdrive%\Native-Apps\.apps\all-bad-cards
+cd %systemdrive%\Native-Apps\apps\all-bad-cards
 start build.bat
 GOTO MENU
 :AMONG-US
-cd %systemdrive%\Native-Apps\.apps\among-us
+cd %systemdrive%\Native-Apps\apps\among-us
 start build.bat
 GOTO MENU
 :EXIT-MENU
