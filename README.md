@@ -26,8 +26,10 @@
   - python3 -m castlabs_evs.account signup
 ```
 
- - <p>Then run the `app-menu.bat` file and select the app you want to build</p>
- - <p>For the following apps you will need to run the `sign-app.bat` to enable playback of DRM protected content:</p>
+ - <p>Then run the <code>app-menu.bat</code> file and select the app you want to build</p>
+ 
+ <h2>Step 2: Enabling DRM Playback</h2>
+ <p>For the following apps you will need to run the <code>sign-app.bat</code> file and select an app to sign to enable playback of DRM protected content.</p>
  
   * Netflix
   * Hulu
@@ -37,5 +39,7 @@
   * Amazon Music
   * Prime Video
   * Contour TV
+
+<p>Make sure you have already built the selected app with the <code>app-menu.bat</code> before moving on to this step.</p>
 
 </div>
