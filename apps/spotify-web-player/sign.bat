@@ -17,7 +17,7 @@ CLS
 Echo.
 Echo.
 ECHO         ****************************************
-ECHO                   Signing %app_name%
+ECHO                Signing %app_name%
 ECHO         ****************************************
 python3 -m castlabs_evs.vmp sp "%systemdrive%\Native-Apps\apps\%app_name%\%app_name%-win32-x64" >>%debug% 2>>&1
 exit /b

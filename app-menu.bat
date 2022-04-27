@@ -1,26 +1,35 @@
-ECHO OFF
+@ECHO OFF
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=25
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::START
+::::::::::::::::::::::::::::
 CLS
 :MENU
 ECHO.
-ECHO ...............................................
-ECHO   Choose an app number, or type 0 to EXIT.
-ECHO ...............................................
+ECHO         ********************************************
+ECHO               Choose an app number to build
+ECHO         ********************************************
 ECHO.
-ECHO a - Netflix
-ECHO b - Hulu
-ECHO c - HBO Max
-ECHO d - Disney Plus
-ECHO e - Amazon Music
-ECHO f - Prime Video
-ECHO g - Spotify Web Player
-ECHO h - DeviantArt
-ECHO i - Virtual Customs
-ECHO j - Pornhubr
-ECHO k - hanime.tv
-ECHO l - nhentai.net 
-ECHO m - AllBad.Cards
-ECHO n - Among Us
-ECHO 0 - EXIT
+ECHO           a - Netflix
+ECHO           b - Hulu
+ECHO           c - HBO Max
+ECHO           d - Disney Plus
+ECHO           e - Amazon Music
+ECHO           f - Prime Video
+ECHO           g - Contour TV
+ECHO           h - Spotify Web Player
+ECHO           i - DeviantArt
+ECHO           j - Virtual Customs
+ECHO           k - Pornhub
+ECHO           l - hanime.tv
+ECHO           m - nhentai.net 
+ECHO           n - AllBad.Cards
+ECHO           o - Among Us
+ECHO           0 - EXIT
+ECHO.
+ECHO         ********************************************
 ECHO.
 SET /P M=Type the app number then press ENTER:
 IF %M%==a GOTO NETFLIX
@@ -29,14 +38,15 @@ IF %M%==c GOTO HBO-MAX
 IF %M%==d GOTO DISNEY-PLUS
 IF %M%==e GOTO AMAZON-MUSIC
 IF %M%==f GOTO PRIME-VIDEO
-IF %M%==g GOTO SPOTIFY-WEB-PLAYER
-IF %M%==h GOTO DEVIANTART
-IF %M%==i GOTO VIRTUAL-CUSTOMS
-IF %M%==j GOTO PORNHUB
-IF %M%==k GOTO HANIME-TV
-IF %M%==l GOTO NHENTAI-NET
-IF %M%==m GOTO ALL-BAD-CARDS
-IF %M%==n GOTO AMONG-US
+IF %M%==g GOTO CONTOUR-TV
+IF %M%==h GOTO SPOTIFY-WEB-PLAYER
+IF %M%==i GOTO DEVIANTART
+IF %M%==j GOTO VIRTUAL-CUSTOMS
+IF %M%==k GOTO PORNHUB
+IF %M%==l GOTO HANIME-TV
+IF %M%==m GOTO NHENTAI-NET
+IF %M%==n GOTO ALL-BAD-CARDS
+IF %M%==o GOTO AMONG-US
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
@@ -60,6 +70,10 @@ start build.bat
 GOTO MENU
 :PRIME-VIDEO
 cd %systemdrive%\Native-Apps\apps\prime-video
+start build.bat
+GOTO MENU
+:CONTOUR-TV
+cd %systemdrive%\Native-Apps\apps\contour-tv
 start build.bat
 GOTO MENU
 :SPOTIFY-WEB-PLAYER
