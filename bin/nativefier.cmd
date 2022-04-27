@@ -1,12 +1,11 @@
 @echo off
-Set name=nativefier
+Set app_name=nativefier
 
-For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (Set mydate=%%c-%%a-%%b)
-For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (Set mytime=%%a%%b)
-echo %mydate%_%mytime%
+For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (Set my_date=%%c-%%a-%%b)
+For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (Set my_time=%%a%%b)
+echo %my_date%_%my_time%
 
-Set error="..\..\logs\%name%\error-%mydate%_%mytime%.log"
-Set debug="..\..\logs\%name%\debug-%mydate%_%mytime%.log"
+Set debug="..\..\logs\%app_name%\debug-%my_date%_%my_time%.log"
 
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
@@ -18,7 +17,7 @@ CLS
 Echo.
 Echo.
 ECHO         ****************************************
-ECHO                  Installing %name%
+ECHO                  Installing %app_name%
 ECHO         ****************************************
-npm install -g %name% >>"%debug%" 2>>%error% 1
+npm install -g %app_name% >>"%debug%" 2>>%error% 1
 exit /b

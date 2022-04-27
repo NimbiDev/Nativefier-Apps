@@ -1,20 +1,21 @@
 @echo off
-Set name=stadia
+Set app_name=stadia
 Set user_agent=edge
 Set background_color=#333333
-Set website=https://stadia.google.com/
+Set website_url=https://stadia.google.com/
 Set electron="11.0.1"
 Set upgrade-pkg_1="bin\upgrade-pkg.cmd"
 Set upgrade-pkg_2="stadia-win32-x64\upgrade-pkg.cmd"
-Set icon="bin\icon.ico"
+Set ico_file="bin\icon.ico"
 Set internal_urls=".*?"
+Set enable_tray="true"
+Set background_color="#333333"
 
-For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (Set mydate=%%c-%%a-%%b)
-For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (Set mytime=%%a%%b)
-echo %mydate%_%mytime%
+For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (Set my_date=%%c-%%a-%%b)
+For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (Set my_time=%%a%%b)
+echo %my_date%_%my_time%
 
-Set error="..\..\logs\%name%\error-%mydate%_%mytime%.log"
-Set debug="..\..\logs\%name%\debug-%mydate%_%mytime%.log"
+Set debug="..\..\logs\%app_name%\debug-%my_date%_%my_time%.log"
 
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
@@ -26,7 +27,7 @@ CLS
 Echo.
 Echo.
 ECHO         ****************************************
-ECHO                   Building %name%
+ECHO                   Building %app_name%
 ECHO         ****************************************
-nativefier -e %electron% -u %user_agent% -n "%name%" "%website%" --ignore-gpu-blacklist --single-instance --tray "true" --enable-es3-apis --verbose --background-color "%background_color%" --internal-urls %internal_urls% --icon %icon% >>%debug% 2>>%error% 1 && copy %upgrade-pkg_1% %upgrade-pkg_2% >>%debug% 2>>%error% 1
+npx nativefier -e %electron% -u %user_agent% -n "%app_name%" "%website_url%" --ignore-gpu-blacklist --single-instance --tray %enable_tray% --enable-es3-apis --verbose --background-color "%background_color%" --internal-urls %internal_urls% --icon %ico_file% >>%debug% 2>&1
 exit /b

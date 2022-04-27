@@ -18,82 +18,83 @@
  - <p>First install the dependencies</p>
  ```
   - winget install node.js
-  - npm i -g nativefier
   - git clone https://github.com/DevCorner-Github/Nativefier-Apps.git
+  - cd Nativefier-Apps
+  - npm i
 ```
 
  - <p>Then install your native apps</p>
 
 <b>Netflix:</b>
 ```
-cd "Nativefier-Apps\apps\Netflix"
-build.bat
+cd "apps\Netflix"
+build .
 ```
 
 <b>Hulu:</b>
 ```
-cd "Nativefier-Apps\apps\Hulu"
-build.bat
+cd "apps\Hulu"
+build .
 ```
 
 <b>HBO Max:</b>
 ```
-cd "Nativefier-Apps\apps\HBO Max"
-build.bat
+cd "apps\HBO Max"
+build .
 ```
 
 <b>Dinsye Plus:</b>
 ```
-cd "Nativefier-Apps\apps\Dinsye Plus"
-build.bat
+cd "apps\Dinsye Plus"
+build .
 ```
 
 <b>Contour TV:</b>
 ```
-cd "Nativefier-Apps\apps\Contour TV"
-build.bat
+cd "apps\Contour TV"
+build .
 ```
 
 <b>Spotify:</b>
 ```
-cd "Nativefier-Apps\apps\Spotify"
-build.bat
+cd "apps\Spotify"
+build .
 ```
 
 <b>YouTube:</b>
 ```
-cd "Nativefier-Apps\apps\YouTube"
-build.bat
+cd "apps\YouTube"
+build .
 ```
 
 <b>DeviantArt:</b>
 ```
-cd "Nativefier-Apps\apps\DeviantArt"
-build.bat
+cd "apps\DeviantArt"
+build .
 ```
 
 <b>Webtoons:</b>
 ```
-cd "Nativefier-Apps\apps\Webtoons"
-build.bat
+cd "apps\Webtoons"
+build .
 ```
 
 <b>All Bad Cards:</b>
 ```
-cd "Nativefier-Apps\apps\All Bad Cards"
-build.bat
+cd "apps\All Bad Cards"
+build .
 ```
 
 <b>Among Us:</b>
 ```
-cd "Nativefier-Apps\apps\Among Us"
-build.bat
+cd "apps\Among Us"
+build .
 ```
 
 <b>Google Stadia:</b> (Note: This one doesn't work yet. It is currently a W.I.P and we are working out some kinks with google's browser check.)
 ```
-cd "Nativefier-Apps\apps\Google Stadia"
-build.bat
+cd "apps\Google Stadia"
+build .
 ```
 
 <h2>Step 2: Digitally signing your DRM Enabled Apps</h2>

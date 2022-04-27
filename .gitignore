@@ -1,12 +1,5 @@
-## Directories
-.vscode/*
-node_modules/*
-pyenv/*
-env/*
-*/*/*-win32-x64/*
-*/*-win32-x64/*
-
-## Logging Files
-*/*/*.log
-*/*.log
+.vscode
+node_modules
+project_env
+*-win32-x64
 *.log

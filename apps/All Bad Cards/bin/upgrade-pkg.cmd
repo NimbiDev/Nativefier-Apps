@@ -1,2 +1,2 @@
 @echo off
-nativefier --upgrade "./"
+npx nativefier --upgrade "./"
