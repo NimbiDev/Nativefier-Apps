@@ -26,7 +26,7 @@ ECHO           k - Pornhub
 ECHO           l - hanime.tv
 ECHO           m - nhentai.net 
 ECHO           n - AllBad.Cards
-ECHO           o - Among Us
+ECHO           o - Now.GG Mobile Cloud
 ECHO           0 - EXIT
 ECHO.
 ECHO         ********************************************
@@ -46,7 +46,7 @@ IF %M%==k GOTO PORNHUB
 IF %M%==l GOTO HANIME-TV
 IF %M%==m GOTO NHENTAI-NET
 IF %M%==n GOTO ALL-BAD-CARDS
-IF %M%==o GOTO AMONG-US
+IF %M%==o GOTO NOW-GG
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
@@ -104,8 +104,8 @@ GOTO MENU
 cd %systemdrive%\Native-Apps\apps\all-bad-cards
 start build.bat
 GOTO MENU
-:AMONG-US
-cd %systemdrive%\Native-Apps\apps\among-us
+:NOW-GG
+cd %systemdrive%\Native-Apps\apps\now-gg
 start build.bat
 GOTO MENU
 :EXIT-MENU

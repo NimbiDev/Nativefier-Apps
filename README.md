@@ -37,7 +37,7 @@
   <b>Games:</b>
 
    * AllBad.Cards
-   * Among Us
+   * Now.GG Mobile Cloud
 
  <h2>Instructions</h2>
  

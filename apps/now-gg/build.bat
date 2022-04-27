@@ -1,8 +1,8 @@
 @echo off
-Set app_name=among-us
+Set app_name=now-gg
 Set user_agent=firefox
 Set background_color=#333333
-Set website_url=https://now.gg/play/innersloth-llc/4047/among-us
+Set website_url=https://now.gg/
 Set ico_file="bin\icon.ico"
 Set internal_urls=".*?"
 Set enable_tray="true"
