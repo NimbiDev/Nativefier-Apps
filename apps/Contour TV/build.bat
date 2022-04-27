@@ -1,5 +1,5 @@
 @echo off
-Set app_name=cox
+Set app_name=contourtv
 Set website_url=https://watchtv.cox.com/
 Set user_agent=firefox
 Set electron="15.3.5"

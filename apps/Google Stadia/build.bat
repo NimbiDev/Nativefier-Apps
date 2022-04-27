@@ -1,5 +1,5 @@
 @echo off
-Set app_name=stadia
+Set app_name=googlestadia
 Set user_agent=edge
 Set background_color=#333333
 Set website_url=https://stadia.google.com/
