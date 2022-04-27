@@ -50,15 +50,19 @@
   - winget install 9PJPW5LDXLZ5
   - npm install -g nativefier
   - python3 -m pip install --upgrade castlabs_evs
-  - git clone https://github.com/DevCorner-Github/Nativefier-Apps.git "%systemdrive%\Native-Apps"
-  - cd "%systemdrive%\Native-Apps"
   - python3 -m castlabs_evs.account signup
 ```
 
- - <p>Then run the <code>app-menu.bat</code> file and select the app you want to build</p>
+ - <p>Next, clone the repo into <code>%systemdrive%\Native-Apps</code> via the following command:</p>
+```bat
+  - git clone https://github.com/DevCorner-Github/Nativefier-Apps.git "%systemdrive%\Native-Apps"
+
+```
+
+ - <p>Double click the <code>app-menu.bat</code> file and select the app you want to build</p>
  
  <h2>Step 2: Enabling DRM Playback</h2>
- <p>For the following apps you will need to run the <code>sign-app.bat</code> file and select an app to sign to enable playback of DRM protected content.</p>
+ <p>For the following apps you will need to double click the <code>sign-app.bat</code> file and select an app to sign to enable playback of DRM protected content.</p>
  
   * Netflix
   * Hulu
