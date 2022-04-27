@@ -105,8 +105,8 @@ Next to make the DRM Enabled apps work properly, you need to digitally sign them
   - winget install 9PJPW5LDXLZ5
   - cd Nativefier-Apps
   - python3 -m venv project_env
-  - pip install castlabs_evs
-  - pip castlabs_evs.vmp signup
+  - pip install --upgrade castlabs_evs
+  - python -m castlabs_evs.account signup
  ```
 
  - <p>Then sign the apps:</p>
@@ -114,36 +114,36 @@ Next to make the DRM Enabled apps work properly, you need to digitally sign them
  <b>Netflix:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vmp sign-pkg "apps/Netflix/netflix-win32-x64"
+  - python -m castlabs_evs.vmp sp "apps/Netflix/netflix-win32-x64"
  ```
  
  <b>HBO Max:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vmp sign-pkg "apps/HBO Max/hbomax-win32-x64/"
+  - python -m castlabs_evs.vmp sp "apps/HBO Max/hbomax-win32-x64/"
  ```
 
  <b>Disney Plus:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vmp sign-pkg "apps/Dinsey Plus/disneyplus-win32-x64/"
+  - python -m castlabs_evs.vmp sp "apps/Dinsey Plus/disneyplus-win32-x64/"
  ``` 
 
  <b>Hulu:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vmp sign-pkg "apps/Hulu/hulu-win32-x64/"
+  - python -m castlabs_evs.vmp sp "apps/Hulu/hulu-win32-x64/"
  ```
  
  <b>Contour TV:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vmp sign-pkg "apps/Contour TV/contour-win32-x64/"
+  - python -m castlabs_evs.vmp sp "apps/Contour TV/contour-win32-x64/"
  ```
  
  <b>Spotify:</b><br />
  ```
   - project_env\Scripts\activate.bat
-  - pip castlabs_evs.vmp sign-pkg "apps/Spotify/spotify-win32-x64/"
+  - python -m castlabs_evs.vmp sp "apps/Spotify/spotify-win32-x64/"
  ```
 </div>
