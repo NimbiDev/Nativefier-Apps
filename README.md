@@ -10,7 +10,36 @@
  <hr />
  Copyright © Developer Corner. All Rights Reserved
  </div>
- <h1>Instructions</h1>
+
+ <h1>Available Apps</h1>
+
+  <b>DRM Enabled:</b>
+  
+   * Netflix
+   * Hulu
+   * HBO Max
+   * Disney Plus
+   * Amazon Music
+   * Prime Video
+   * Contour TV
+
+  <g>Streaming:</b>
+
+   * YouTube
+   * hanime
+   * Pornhub
+
+  <b>Webtoons/Manga/Doujinshi:</b>
+
+   * Webtoons
+   * nhentai
+
+  <b>Games:</b>
+
+   * AllBad.Cards
+   * Among Us
+
+ <h2>Instructions</h2>
  
  <h2>Step 1: Installing your apps</h2>
  <p>Type the following commands in order into Windows Command Prompt to install your native apps:</p>
