@@ -1,6 +1,6 @@
 @ECHO OFF
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=25
+Mode con:cols=60 lines=27
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::START
@@ -26,7 +26,9 @@ ECHO           k - Pornhub
 ECHO           l - hanime.tv
 ECHO           m - nhentai.net 
 ECHO           n - AllBad.Cards
-ECHO           o - Now.GG Mobile Cloud
+ECHO           o - Among Us
+ECHO           p - Perfect World
+ECHO           q - Roblox
 ECHO           0 - EXIT
 ECHO.
 ECHO         ********************************************
@@ -46,7 +48,9 @@ IF %M%==k GOTO PORNHUB
 IF %M%==l GOTO HANIME-TV
 IF %M%==m GOTO NHENTAI-NET
 IF %M%==n GOTO ALL-BAD-CARDS
-IF %M%==o GOTO NOW-GG
+IF %M%==o GOTO AMONG-US
+IF %M%==p GOTO PERFECT-WORLD
+IF %M%==q GOTO ROBLOX
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
@@ -104,8 +108,16 @@ GOTO MENU
 cd %systemdrive%\Native-Apps\apps\all-bad-cards
 start build.bat
 GOTO MENU
-:NOW-GG
-cd %systemdrive%\Native-Apps\apps\now-gg
+:AMONG-US
+cd %systemdrive%\Native-Apps\apps\among-us
+start build.bat
+GOTO MENU
+:PERFECT-WORLD
+cd %systemdrive%\Native-Apps\apps\perfect-world
+start build.bat
+GOTO MENU
+:ROBLOX
+cd %systemdrive%\Native-Apps\apps\roblox
 start build.bat
 GOTO MENU
 :EXIT-MENU

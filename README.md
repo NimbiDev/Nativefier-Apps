@@ -37,7 +37,9 @@
   <b>Games:</b>
 
    * AllBad.Cards
-   * Now.GG Mobile Cloud
+   * Perfect World Mobile
+   * Roblox
+   * Among Us
 
  <h2>Instructions</h2>
  

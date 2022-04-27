@@ -1,8 +1,8 @@
 @echo off
-Set app_name=now-gg
+Set app_name=perfect-world
 Set user_agent=firefox
 Set background_color=#333333
-Set website_url=https://now.gg/
+Set website_url=https://now.gg/apps/perfect-world/7724/perfect-world-mobile.html
 Set ico_file="bin\icon.ico"
 Set internal_urls=".*?"
 Set enable_tray="true"
