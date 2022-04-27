@@ -48,10 +48,10 @@
  ```bat
   - winget install node.js
   - winget install 9PJPW5LDXLZ5
-  - git clone https://github.com/DevCorner-Github/Nativefier-Apps.git "%systemdrive%\Native-Apps"
-  - cd "%systemdrive%\Native-Apps"
   - npm install -g nativefier
   - python3 -m pip install --upgrade castlabs_evs
+  - git clone https://github.com/DevCorner-Github/Nativefier-Apps.git "%systemdrive%\Native-Apps"
+  - cd "%systemdrive%\Native-Apps"
   - python3 -m castlabs_evs.account signup
 ```
 
