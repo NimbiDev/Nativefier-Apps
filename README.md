@@ -46,18 +46,18 @@
 
  - <p>First install the dependencies</p>
 
- ``
+ ```bat
  > winget install node.js
  > winget install 9PJPW5LDXLZ5
  > npm install -g nativefier
  > python3 -m pip install --upgrade castlabs_evs
  > python3 -m castlabs_evs.account signup
- ``
+ ```
 
  - <p>Next, clone the repo into <code>%systemdrive%\Native-Apps</code> via the following command:</p>
- ``
+ ```bat
  > git clone https://github.com/DevCorner-Github/Nativefier-Apps.git %systemdrive%\Native-Apps
- ``
+ ```
 
  - <p>Finally, double click the <code>app-menu.bat</code> file and select the app you want to build</p>
  
