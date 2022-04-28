@@ -57,75 +57,92 @@ IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
 start build.bat
+exit /b
 GOTO MENU
 :HULU
 cd %systemdrive%\Native-Apps\apps\hulu
 start build.bat
+exit /b
 GOTO MENU
 :HBO-MAX
 cd %systemdrive%\Native-Apps\apps\hbo-max
 start build.bat
+exit /b
 GOTO MENU
 :DISNEY-PLUS
 cd %systemdrive%\Native-Apps\apps\disney-plus
 start build.bat
+exit /b
 GOTO MENU
 :AMAZON-MUSIC
 cd %systemdrive%\Native-Apps\apps\amazon-music
 start build.bat
+exit /b
 GOTO MENU
 :PRIME-VIDEO
 cd %systemdrive%\Native-Apps\apps\prime-video
 start build.bat
+exit /b
 GOTO MENU
 :CONTOUR-TV
 cd %systemdrive%\Native-Apps\apps\contour-tv
 start build.bat
+exit /b
 GOTO MENU
 :SPOTIFY-WEB-PLAYER
 cd %systemdrive%\Native-Apps\apps\spotify-web-player
 start build.bat
+exit /b
 GOTO MENU
 :DEVIANTART
 cd %systemdrive%\Native-Apps\apps\deviantart
 start build.bat
+exit /b
 GOTO MENU
 :VIRTUAL-CUSTOMS
 cd %systemdrive%\Native-Apps\apps\virtual-customs
 start build.bat
+exit /b
 GOTO MENU
 :PORNHUB
 cd %systemdrive%\Native-Apps\apps\pornhub
 start build.bat
+exit /b
 GOTO MENU
 :NHENTAI-NET
 cd %systemdrive%\Native-Apps\apps\nhentai-net
 start build.bat
+exit /b
 GOTO MENU
 :HANIME-TV
 cd %systemdrive%\Native-Apps\apps\hanime-tv
 start build.bat
+exit /b
 GOTO MENU
 :ALL-BAD-CARDS
 cd %systemdrive%\Native-Apps\apps\all-bad-cards
 start build.bat
+exit /b
 GOTO MENU
 :AMONG-US
 cd %systemdrive%\Native-Apps\apps\among-us
 start build.bat
+exit /b
 GOTO MENU
 :PERFECT-WORLD
 cd %systemdrive%\Native-Apps\apps\perfect-world
 start build.bat
+exit /b
 GOTO MENU
 :ROBLOX
 cd %systemdrive%\Native-Apps\apps\roblox
 start build.bat
+exit /b
 GOTO MENU
-:EXIT-MENU
 :CUNT-EMPIRE
 cd %systemdrive%\Native-Apps\apps\cunt-empire
 start build.bat
+exit /b
 GOTO MENU
 :EXIT-MENU
 exit /b
