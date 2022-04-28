@@ -1,6 +1,6 @@
 <div>
 <div align="center">
- <h1>Nativefier Apps</h1>
+ <h1>Native App Compiler</h1>
  <hr />
  <img src="banner.jpg" widht=100%></img>
  <hr />
