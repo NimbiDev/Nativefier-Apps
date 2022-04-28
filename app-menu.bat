@@ -29,6 +29,7 @@ ECHO           n - AllBad.Cards
 ECHO           o - Among Us
 ECHO           p - Perfect World
 ECHO           q - Roblox
+ECHO           r - Cunt Empire
 ECHO           0 - EXIT
 ECHO.
 ECHO         ********************************************
@@ -51,6 +52,7 @@ IF %M%==n GOTO ALL-BAD-CARDS
 IF %M%==o GOTO AMONG-US
 IF %M%==p GOTO PERFECT-WORLD
 IF %M%==q GOTO ROBLOX
+IF %M%==r GOTO CUNT-EMPIRE
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
@@ -118,6 +120,11 @@ start build.bat
 GOTO MENU
 :ROBLOX
 cd %systemdrive%\Native-Apps\apps\roblox
+start build.bat
+GOTO MENU
+:EXIT-MENU
+:CUNT-EMPIRE
+cd %systemdrive%\Native-Apps\apps\cunt-empire
 start build.bat
 GOTO MENU
 :EXIT-MENU

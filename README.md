@@ -26,20 +26,21 @@
   <g>Streaming:</b>
 
    * YouTube
-   * hanime
-   * Pornhub
+   * hanime [18+]
+   * Pornhub [18+]
 
-  <b>Webtoons/Manga/Doujinshi:</b>
+  <b>Reading:</b>
 
    * Webtoons
-   * nhentai
+   * nhentai [18+]
 
   <b>Games:</b>
 
    * AllBad.Cards
-   * Perfect World Mobile
+   * Perfect World
    * Roblox
    * Among Us
+   * Cunt Empire [18+]
 
  <h2>Instructions</h2>
  
