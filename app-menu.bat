@@ -1,6 +1,6 @@
 @ECHO OFF
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=27
+Mode con:cols=60 lines=30
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::START
@@ -30,6 +30,7 @@ ECHO           o - Among Us
 ECHO           p - Perfect World
 ECHO           q - Roblox
 ECHO           r - Cunt Empire
+ECHO           s - Queens Blade Limit Break
 ECHO           0 - EXIT
 ECHO.
 ECHO         ********************************************
@@ -53,6 +54,7 @@ IF %M%==o GOTO AMONG-US
 IF %M%==p GOTO PERFECT-WORLD
 IF %M%==q GOTO ROBLOX
 IF %M%==r GOTO CUNT-EMPIRE
+IF %M%==s GOTO QUEENS-BLADE-LB
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
@@ -141,6 +143,11 @@ exit /b
 GOTO MENU
 :CUNT-EMPIRE
 cd %systemdrive%\Native-Apps\apps\cunt-empire
+start build.bat
+exit /b
+GOTO MENU
+:QUEENS-BLADE-LB
+cd %systemdrive%\Native-Apps\apps\queens-blade-lb
 start build.bat
 exit /b
 GOTO MENU
