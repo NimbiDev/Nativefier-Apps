@@ -21,13 +21,13 @@
   <g>Streaming:</b>
 
    * YouTube
-   * hanime [18+]
-   * Pornhub [18+]
+   * hanime
+   * Pornhub
 
   <b>Reading:</b>
 
    * Webtoons
-   * nhentai [18+]
+   * nhentai
 
   <b>Games:</b>
 
@@ -35,7 +35,7 @@
    * Perfect World
    * Roblox
    * Among Us
-   * Cunt Empire [18+]
+   * Cunt Empire
    * Queen's Blade Limit Break
 
  <h2>Instructions</h2>
