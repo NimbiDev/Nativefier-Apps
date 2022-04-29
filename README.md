@@ -43,26 +43,29 @@
  <h2>Step 1: Installing your apps</h2>
 
 
- - <p>First install the dependencies</p>
+ <p><b>1-A</b>: First install the dependencies</p>
 
- ```bat
- > winget install node.js
- > winget install 9PJPW5LDXLZ5
- > npm install -g nativefier
- > python3 -m pip install --upgrade castlabs_evs
- > python3 -m castlabs_evs.account signup
- ```
+   * Download and install Node.JS 12.9 or later
+   * Download and install Python 3.7 or later
 
- - <p>Next, clone the repo into <code>%systemdrive%\Native-Apps</code> via the following command:</p>
+  
+  <p><b>1-B</b>: Run the following commands in Windows Command Prompt</p>
+  ```bat
+  > npm install -g nativefier
+  > python3 -m pip install --upgrade castlabs_evs
+  > python3 -m castlabs_evs.account signup
+  ```
+
+ <p><b>1-C</b>: Clone the repo into <code>%systemdrive%\Native-Apps</code> via the following command:</p>
  ```bat
  > git clone https://github.com/DevCorner-Github/Nativefier-Apps.git %systemdrive%\Native-Apps
  ```
 
- - <p>Finally, double click the <code>app-menu.bat</code> file and select the app you want to build</p>
+ <p><b>1-D</b>: Double click the <code>app-menu.bat</code> file and select the app you want to build</p>
  
  <h2>Step 2: Enabling DRM Playback</h2>
 
- <p>For the following apps you will need to double click the <code>sign-app.bat</code> file and select an app to sign to enable playback of DRM protected content.</p>
+ <p>For the following apps you will need to double click the <code>sign-app.bat</code> file and select an app to digitally sign.</p>
  
   * Netflix
   * Hulu
@@ -73,6 +76,6 @@
   * Prime Video
   * Contour TV
 
-<p>Make sure you have already built the selected app with the <code>app-menu.bat</code> before moving on to this step.</p>
+<p><b>Note</b>: Make sure you have already built the selected app with the <code>app-menu.bat</code> before moving on to this step.</p>
 
 </div>
