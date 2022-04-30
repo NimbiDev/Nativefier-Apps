@@ -14,4 +14,3 @@
 
  * [Instructions](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Instructions)
  * [Native Apps](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Native-Apps)
- * [Screenshots](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Screenshots)
