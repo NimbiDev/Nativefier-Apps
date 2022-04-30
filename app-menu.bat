@@ -31,6 +31,7 @@ ECHO           p - Perfect World
 ECHO           q - Roblox
 ECHO           r - Cunt Empire
 ECHO           s - Queens Blade Limit Break
+ECHO           t - Webtoons
 ECHO           0 - EXIT
 ECHO.
 ECHO         ********************************************
@@ -55,6 +56,7 @@ IF %M%==p GOTO PERFECT-WORLD
 IF %M%==q GOTO ROBLOX
 IF %M%==r GOTO CUNT-EMPIRE
 IF %M%==s GOTO QUEENS-BLADE-LB
+IF %M%==t GOTO WEBTOON
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
@@ -148,6 +150,11 @@ exit /b
 GOTO MENU
 :QUEENS-BLADE-LB
 cd %systemdrive%\Native-Apps\apps\queens-blade-lb
+start build.bat
+exit /b
+GOTO MENU
+:WEBTOON
+cd %systemdrive%\Native-Apps\apps\webtoons
 start build.bat
 exit /b
 GOTO MENU
