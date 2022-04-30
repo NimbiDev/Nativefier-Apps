@@ -3,7 +3,6 @@ Set app_name=youtube
 Set website_url=https://www.youtube.com/
 Set user_agent=firefox
 Set background_color="#333333"
-Set global_shortcuts="bin\global-shortcuts.json"
 Set internal_urls=".*?"
 Set enable_tray="true"
 
@@ -25,5 +24,5 @@ Echo.
 ECHO         ****************************************
 ECHO                   Building %app_name%
 ECHO         ****************************************
-nativefier -u %user_agent% -n "%app_name%" "%website_url%" --single-instance --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --global-shortcuts %global_shortcuts% --internal-urls %internal_urls% >>%debug% 2>&1
+nativefier -u %user_agent% -n "%app_name%" "%website_url%" --single-instance --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% >>%debug% 2>&1
 exit /b
