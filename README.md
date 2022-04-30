@@ -57,6 +57,7 @@
 
 
   <p><b>1-B</b>: Run the following commands in Windows Command Prompt</p>
+
   ```bat
   > npm install -g nativefier
   > python3 -m pip install --upgrade castlabs_evs
@@ -64,6 +65,7 @@
   ```
 
  <p><b>1-C</b>: Clone the repo into <code>%systemdrive%\Native-Apps</code> via the following command:</p>
+ 
  ```bat
  > git clone https://github.com/DevCorner-Github/Nativefier-Apps.git %systemdrive%\Native-Apps
  ```
