@@ -21,8 +21,8 @@
  
  ```bat
   > npm install -g nativefier
-  > python3 -m pip install --upgrade castlabs_evs
-  > python3 -m castlabs_evs.account signup
+  > python -m pip install --upgrade castlabs_evs
+  > python -m castlabs_evs.account signup
   ```
 
  * Clone the repo via the following command:
