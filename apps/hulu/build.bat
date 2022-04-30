@@ -27,5 +27,5 @@ Echo.
 ECHO         ****************************************
 ECHO                   Building %app_name%
 ECHO         ****************************************
-npx nativefier -e %electron% -u %user_agent% -n "%app_name%" "%website_url%" --ignore-gpu-blacklist --single-instance --widevine --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --file-download-options %download_options% --icon %ico_file% >>%debug% 2>>&1
+nativefier -e %electron% -u %user_agent% -n "%app_name%" "%website_url%" --ignore-gpu-blacklist --single-instance --widevine --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --file-download-options %download_options% --icon %ico_file% >>%debug% 2>>&1
 exit /b

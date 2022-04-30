@@ -25,5 +25,5 @@ Echo.
 ECHO         ****************************************
 ECHO                   Building %app_name%
 ECHO         ****************************************
-npx nativefier -u %user_agent% -n "%app_name%" "%website_url%" --single-instance --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --global-shortcuts %global_shortcuts% --internal-urls %internal_urls% >>%debug% 2>&1
+nativefier -u %user_agent% -n "%app_name%" "%website_url%" --single-instance --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --global-shortcuts %global_shortcuts% --internal-urls %internal_urls% >>%debug% 2>&1
 exit /b
