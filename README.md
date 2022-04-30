@@ -35,20 +35,6 @@
 
  * Double click the `app-menu` file and select the app you want to build:
 
-### Step 2: Enabling DRM Playback
-For the following apps you will need to double click the `sign-app` file and select an app to digitally sign
-
-  * Netflix
-  * Hulu
-  * HBO Max
-  * Disney Plus
-  * Spotify Web Player
-  * Amazon Music
-  * Prime Video
-  * Contour TV
-
-**Note**: Make sure you have already built the selected app with the `app-menu` before moving on to this step.
-
 ## Links
 
  * [Native Apps](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Native-Apps)
