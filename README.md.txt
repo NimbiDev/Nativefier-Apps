@@ -8,8 +8,6 @@
 
  <h1>Available Apps</h1>
 
-  <b>DRM Enabled:</b>
-
    * Netflix
    * Hulu
    * HBO Max
@@ -17,20 +15,11 @@
    * Amazon Music
    * Prime Video
    * Contour TV
-
-  <g>Streaming:</b>
-
-   * YouTube
+   * Spotify Web Player
    * hanime
    * Pornhub
-
-  <b>Reading:</b>
-
    * Webtoons
    * nhentai
-
-  <b>Games:</b>
-
    * AllBad.Cards
    * Perfect World
    * Roblox
