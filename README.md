@@ -40,7 +40,7 @@
 
  <h2>Instructions</h2>
 
- <p><b>Requirements</b>:<.p>
+ <p><b>Requirements</b>:</p>
 
   * <b>Python</b>: `3.7+`
   * <b>NodeJS</b>: `12.9+`
@@ -65,7 +65,7 @@
   ```
 
  <p><b>1-C</b>: Clone the repo into <code>%systemdrive%\Native-Apps</code> via the following command:</p>
- 
+
  ```bat
  > git clone https://github.com/DevCorner-Github/Nativefier-Apps.git %systemdrive%\Native-Apps
  ```
