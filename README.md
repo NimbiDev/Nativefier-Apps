@@ -9,7 +9,7 @@
  <h1>Available Apps</h1>
 
   <b>DRM Enabled:</b>
-  
+
    * Netflix
    * Hulu
    * HBO Max
@@ -39,16 +39,23 @@
    * Queen's Blade Limit Break
 
  <h2>Instructions</h2>
- 
+
+ <p><b>Requirements</b>:<.p>
+
+  * <b>Python</b>: `3.7+`
+  * <b>NodeJS</b>: `12.9+`
+
  <h2>Step 1: Installing your apps</h2>
 
 
  <p><b>1-A</b>: First install the dependencies</p>
 
-   * Download and install Node.JS 12.9 or later
-   * Download and install Python 3.7 or later
+   * Download and install Node.JS 12.9 or later from https://nodejs.org
+   * Download and install Python 3.7 or later from https://python.org
 
-  
+   <b>Note</b>: Windows 10 and 11 users can use `winget` to install both much quicker.
+
+
   <p><b>1-B</b>: Run the following commands in Windows Command Prompt</p>
   ```bat
   > npm install -g nativefier
@@ -62,11 +69,11 @@
  ```
 
  <p><b>1-D</b>: Double click the <code>app-menu.bat</code> file and select the app you want to build</p>
- 
+
  <h2>Step 2: Enabling DRM Playback</h2>
 
  <p>For the following apps you will need to double click the <code>sign-app.bat</code> file and select an app to digitally sign.</p>
- 
+
   * Netflix
   * Hulu
   * HBO Max
