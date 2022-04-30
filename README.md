@@ -10,7 +10,7 @@
   * **NodeJS**: `12.9+`
 
 ### Step 1: Installing your apps
- Follow these instrucctions in order to use the Native App Compiler
+ Follow these instructions in order to use the Native App Compiler
  
  * Download and install Node.JS 12.9 or later from https://nodejs.org
  * Download and install Python 3.7 or later from https://python.org
