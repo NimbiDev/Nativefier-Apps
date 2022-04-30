@@ -32,6 +32,7 @@ ECHO           q - Roblox
 ECHO           r - Cunt Empire
 ECHO           s - Queens Blade Limit Break
 ECHO           t - Webtoons
+ECHO           u - YouTube
 ECHO           0 - EXIT
 ECHO.
 ECHO         ********************************************
@@ -57,6 +58,7 @@ IF %M%==q GOTO ROBLOX
 IF %M%==r GOTO CUNT-EMPIRE
 IF %M%==s GOTO QUEENS-BLADE-LB
 IF %M%==t GOTO WEBTOON
+IF %M%==u GOTO YOUTUBE
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
@@ -155,6 +157,11 @@ exit /b
 GOTO MENU
 :WEBTOON
 cd %systemdrive%\Native-Apps\apps\webtoons
+start build.bat
+exit /b
+GOTO MENU
+:YOUTUBE
+cd %systemdrive%\Native-Apps\apps\youtube
 start build.bat
 exit /b
 GOTO MENU
