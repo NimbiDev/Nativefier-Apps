@@ -59,7 +59,7 @@
   <p><b>1-B</b>: Run the following commands in Windows Command Prompt</p>
 
   ```bat
-  > npm install -g nativefier
+  > npm install nativefier --save-dev
   > python3 -m pip install --upgrade castlabs_evs
   > python3 -m castlabs_evs.account signup
   ```
