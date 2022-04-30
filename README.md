@@ -47,7 +47,7 @@ For the following apps you will need to double click the `sign-app` file and sel
   * Prime Video
   * Contour TV
 
-**Note**: Make sure you have already built the selected app with the <code>app-menu.bat</code> before moving on to this step.
+**Note**: Make sure you have already built the selected app with the `app-menu` before moving on to this step.
 
 ## Links
 
