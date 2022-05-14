@@ -19,10 +19,10 @@ ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO         *                                          *
-ECHO         *  1 - DRM Apps                            *
-ECHO         *  2 - Non DRM Apps                        *
-ECHO         *  3 - Games                               *
-ECHO         *  4 - Adult                               *
+ECHO         *  A - DRM Apps                            *
+ECHO         *  B - Non DRM Apps                        *
+ECHO         *  C - Games                               *
+ECHO         *  D - Adult                               *
 ECHO         *  0 - Exit                                *
 ECHO         *                                          *
 ECHO         ********************************************
@@ -34,10 +34,10 @@ SET /P MENU=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
-IF %MENU%==1 GOTO DRM
-IF %MENU%==2 GOTO NODRM
-IF %MENU%==3 GOTO GAMING
-IF %MENU%==4 GOTO ADULT
+IF %MENU%==A GOTO DRM
+IF %MENU%==B GOTO NODRM
+IF %MENU%==C GOTO GAMING
+IF %MENU%==D GOTO ADULT
 IF %MENU%==0 EXIT
 ::::::::::::::::::::::::::::
 ::
@@ -49,15 +49,18 @@ ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO         *                                          *
-ECHO         *  1 - Netflix                             *
-ECHO         *  2 - Hulu                                *
-ECHO         *  3 - HBO Max                             *
-ECHO         *  4 - Disney Plus                         *
-ECHO         *  5 - Amazon Music                        *
-ECHO         *  6 - Prime Video                         *
-ECHO         *  7 - Contour TV                          *
-ECHO         *  8 - Spotify                             *
-ECHO         *  9 - SiriusXM                            *
+ECHO         *  A - Netflix                             *
+ECHO         *  B - Hulu                                *
+ECHO         *  C - HBO Max                             *
+ECHO         *  D - Disney Plus                         *
+ECHO         *  E - Amazon Music                        *
+ECHO         *  F - Prime Video                         *
+ECHO         *  G - Contour TV                          *
+ECHO         *  H - Spotify                             *
+ECHO         *  I - SiriusXM                            *
+ECHO         *                                          *
+ECHO         ********************************************
+ECHO         *                                          *
 ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
@@ -72,15 +75,15 @@ SET /P DRM=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
-IF %DRM%==1 GOTO NETFLIX
-IF %DRM%==2 GOTO HULU
-IF %DRM%==3 GOTO HBO-MAX
-IF %DRM%==4 GOTO DISNEY-PLUS
-IF %DRM%==5 GOTO AMAZON-MUSIC
-IF %DRM%==6 GOTO PRIME-VIDEO
-IF %DRM%==7 GOTO CONTOUR-TV
-IF %DRM%==8 GOTO SPOTIFY-WEB-PLAYER
-IF %DRM%==9 GOTO SIRIUS-XM
+IF %DRM%==A GOTO NETFLIX
+IF %DRM%==B GOTO HULU
+IF %DRM%==C GOTO HBO-MAX
+IF %DRM%==D GOTO DISNEY-PLUS
+IF %DRM%==E GOTO AMAZON-MUSIC
+IF %DRM%==F GOTO PRIME-VIDEO
+IF %DRM%==G GOTO CONTOUR-TV
+IF %DRM%==H GOTO SPOTIFY-WEB-PLAYER
+IF %DRM%==I GOTO SIRIUS-XM
 IF %DRM%==0 GOTO MENU
 ::::::::::::::::::::::::::::
 ::
@@ -130,11 +133,14 @@ ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO         *                                          *
-ECHO         *  1 - DeviantArt                          *
-ECHO         *  2 - Virtual Customs                     *
-ECHO         *  3 - Webtoons                            *
-ECHO         *  4 - ProtonMail                          *
-ECHO         *  5 - WhatsApp                            *
+ECHO         *  A - DeviantArt                          *
+ECHO         *  B - Virtual Customs                     *
+ECHO         *  C - Webtoons                            *
+ECHO         *  D - ProtonMail                          *
+ECHO         *  E - WhatsApp                            *
+ECHO         *                                          *
+ECHO         ********************************************
+ECHO         *                                          *
 ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
@@ -146,11 +152,11 @@ SET /P NODRM=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
-IF %NODRM%==1 GOTO DEVIANTART
-IF %NODRM%==2 GOTO VIRTUAL-CUSTOMS
-IF %NODRM%==3 GOTO WEBTOON
-IF %NODRM%==4 GOTO PROTON-MAIL
-IF %NODRM%==5 GOTO WHATSAPP
+IF %NODRM%==A GOTO DEVIANTART
+IF %NODRM%==B GOTO VIRTUAL-CUSTOMS
+IF %NODRM%==C GOTO WEBTOON
+IF %NODRM%==D GOTO PROTON-MAIL
+IF %NODRM%==E GOTO WHATSAPP
 IF %NODRM%==0 GOTO MENU
 ::::::::::::::::::::::::::::
 ::
@@ -185,10 +191,13 @@ ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO         *                                          *
-ECHO         *  1 - AllBad.Cards                        *
-ECHO         *  2 - Among Us                            *
-ECHO         *  3 - Roblox                              *
-ECHO         *  4 - Perfect World                       *
+ECHO         *  A - AllBad.Cards                        *
+ECHO         *  B - Among Us                            *
+ECHO         *  C - Roblox                              *
+ECHO         *  D - Perfect World                       *
+ECHO         *                                          *
+ECHO         ********************************************
+ECHO         *                                          *
 ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
@@ -200,10 +209,10 @@ SET /P GAME=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
-IF %GAME%==1 GOTO ALL-BAD-CARDS
-IF %GAME%==2 GOTO AMONG-US
-IF %GAME%==3 GOTO ROBLOX
-IF %GAME%==4 GOTO PERFECT-WORLD
+IF %GAME%==A GOTO ALL-BAD-CARDS
+IF %GAME%==B GOTO AMONG-US
+IF %GAME%==C GOTO ROBLOX
+IF %GAME%==D GOTO PERFECT-WORLD
 IF %GAME%==0 GOTO MENU
 ::::::::::::::::::::::::::::
 ::
@@ -234,9 +243,12 @@ ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO         *                                          *
-ECHO         *  1 - Adult Streaming                     *
-ECHO         *  2 - Adult Reading                       *
-ECHO         *  3 - Adult Games                         *
+ECHO         *  A - Adult Streaming                     *
+ECHO         *  B - Adult Reading                       *
+ECHO         *  C - Adult Games                         *
+ECHO         *                                          *
+ECHO         ********************************************
+ECHO         *                                          *
 ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
@@ -248,9 +260,9 @@ SET /P ADULT=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
-IF %ADULT%==1 GOTO ADULT-STREAMING
-IF %ADULT%==2 GOTO ADULT-READING
-IF %ADULT%==3 GOTO ADULT-GAMES
+IF %ADULT%==A GOTO ADULT-STREAMING
+IF %ADULT%==B GOTO ADULT-READING
+IF %ADULT%==C GOTO ADULT-GAMES
 IF %ADULT%==0 GOTO MENU
 ::::::::::::::::::::::::::::
 ::
@@ -262,8 +274,11 @@ ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO         *                                          *
-ECHO         *  1 - Pornhub                             *
-ECHO         *  2 - hanime                              *
+ECHO         *  A - Pornhub                             *
+ECHO         *  B - hanime                              *
+ECHO         *                                          *
+ECHO         ********************************************
+ECHO         *                                          *
 ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
@@ -275,8 +290,8 @@ SET /P ADULT_STREAMING=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
-IF %ADULT_STREAMING%==1 GOTO PORNHUB
-IF %ADULT_STREAMING%==2 GOTO HANIME-TV
+IF %ADULT_STREAMING%==A GOTO PORNHUB
+IF %ADULT_STREAMING%==B GOTO HANIME-TV
 IF %ADULT_STREAMING%==0 GOTO MENU
 ::::::::::::::::::::::::::::
 ::
@@ -299,7 +314,14 @@ ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO         *                                          *
-ECHO         *  1 - nhentai                             *
+ECHO         *  A - nhentai                             *
+ECHO         *                                          *
+ECHO         ********************************************
+ECHO         *                                          *
+ECHO         *  0 - Main Menu                           *
+ECHO         *                                          *
+ECHO         ********************************************
+ECHO         *                                          *
 ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
@@ -311,7 +333,7 @@ SET /P ADULT_READING=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
-IF %ADULT_READING%==1 GOTO NHENTAI-NET
+IF %ADULT_READING%==A GOTO NHENTAI-NET
 IF %ADULT_READING%==0 GOTO MENU
 ::::::::::::::::::::::::::::
 ::
@@ -330,8 +352,11 @@ ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO         *                                          *
-ECHO         *  1 - Cunt Empire                         *
-ECHO         *  2 - Queens Blade Limit Break            *
+ECHO         *  A - Cunt Empire                         *
+ECHO         *  B - Queens Blade Limit Break            *
+ECHO         *                                          *
+ECHO         ********************************************
+ECHO         *                                          *
 ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
@@ -343,8 +368,8 @@ SET /P ADULT_GAMES=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
-IF %ADULT_GAMES%==1 GOTO CUNT-EMPIRE
-IF %ADULT_GAMES%==2 GOTO QUEENS-BLADE-LB
+IF %ADULT_GAMES%==A GOTO CUNT-EMPIRE
+IF %ADULT_GAMES%==B GOTO QUEENS-BLADE-LB
 IF %ADULT_GAMES%==0 GOTO MENU
 ::::::::::::::::::::::::::::
 ::

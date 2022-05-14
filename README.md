@@ -10,7 +10,8 @@
  * **Python**: 3.7+
 
 
-## Links
+## Additional Information
 
  * [Instructions](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Instructions)
- * [Native Apps](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Native-Apps)
+ * [Apps List](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Native-Apps)
+ * [Contributing Guidelines](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Contributing-Guidelines)

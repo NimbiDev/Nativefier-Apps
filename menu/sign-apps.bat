@@ -12,32 +12,35 @@ CLS
 :MENU
 ECHO.
 ECHO         ********************************************
-ECHO                Choose an app number to start sign.bat
+ECHO         *         Native App Compiler              *
 ECHO         ********************************************
-ECHO.
-ECHO           1 - Netflix
-ECHO           2 - Hulu
-ECHO           3 - HBO Max
-ECHO           4 - Disney Plus
-ECHO           5 - Amazon Music
-ECHO           6 - Prime Video
-ECHO           7 - Contour TV
-ECHO           8 - Spotify
-ECHO           9 - SiriusXM
-ECHO           0 - EXIT
-ECHO.
+ECHO         *                                          *
+ECHO         *  A - Netflix                             *
+ECHO         *  B - Hulu                                *
+ECHO         *  C - HBO Max                             *
+ECHO         *  D - Disney Plus                         *
+ECHO         *  E - Amazon Music                        *
+ECHO         *  F - Prime Video                         *
+ECHO         *  G - Contour TV                          *
+ECHO         *  H - Spotify                             *
+ECHO         *  I - SiriusXM                            *
+ECHO         *                                          *
+ECHO         ********************************************
+ECHO         *                                          *
+ECHO         *  0 - Main Menu                           *
+ECHO         *                                          *
 ECHO         ********************************************
 ECHO.
 SET /P M=Type the app number then press ENTER:
-IF %M%==1 GOTO NETFLIX
-IF %M%==2 GOTO HULU
-IF %M%==3 GOTO HBO-MAX
-IF %M%==4 GOTO DISNEY-PLUS
-IF %M%==5 GOTO AMAZON-MUSIC
-IF %M%==6 GOTO PRIME-VIDEO
-IF %M%==7 GOTO CONTOUR-TV
-IF %M%==8 GOTO SPOTIFY-WEB-PLAYER
-IF %M%==9 GOTO SIRIUS-XM
+IF %M%==A GOTO NETFLIX
+IF %M%==B GOTO HULU
+IF %M%==C GOTO HBO-MAX
+IF %M%==D GOTO DISNEY-PLUS
+IF %M%==E GOTO AMAZON-MUSIC
+IF %M%==F GOTO PRIME-VIDEO
+IF %M%==G GOTO CONTOUR-TV
+IF %M%==H GOTO SPOTIFY-WEB-PLAYER
+IF %M%==I GOTO SIRIUS-XM
 IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd ..\..\Native-Apps\apps\netflix

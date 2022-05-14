@@ -15,9 +15,9 @@ ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO         *                                          *
-ECHO         *  1 - Build Apps                          *
-ECHO         *  2 - Update Apps                         *
-ECHO         *  3 - Sign DRM Enabled Apps               *
+ECHO         *  A - Build Apps                          *
+ECHO         *  B - Update Apps                         *
+ECHO         *  C - Sign DRM Enabled Apps               *
 ECHO         *  0 - EXIT                                *
 ECHO         *                                          *
 ECHO         ********************************************
@@ -29,9 +29,9 @@ SET /P M=Type the app number then press ENTER:
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
-IF %M%==1 GOTO BUILD
-IF %M%==2 GOTO UPGRADE
-IF %M%==3 GOTO SIGN
+IF %M%==A GOTO BUILD
+IF %M%==B GOTO UPGRADE
+IF %M%==C GOTO SIGN
 IF %M%==0 GOTO EXIT-MENU
 ::::::::::::::::::::::::::::
 ::
