@@ -1,6 +1,6 @@
 # Native App Compiler
 
-<div align="center"> <img src="banner.jpg" widht=100%></img></div>
+<div align="center"> <img src="banner.jpg" width=100%></img></div>
 
 ## Requirements
 
