@@ -11,7 +11,7 @@ Set debug_path="..\..\logs\%app_name%\%app_title%_%my_date%_%my_time%.log"
 Set app_path="..\\..\\apps\\%app_name%\\%app_name%-win32-x64"
 
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::START
@@ -23,5 +23,5 @@ ECHO         ****************************************
 ECHO                Signing %app_title%
 ECHO         ****************************************
 python -m castlabs_evs.vmp sp  %app_path% >>%debug_path% 2>>&1
-TIMEOUT /T 03 /NUL
+
 

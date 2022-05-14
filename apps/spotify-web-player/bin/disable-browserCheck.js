@@ -42,3 +42,7 @@ function nukeWorkers() {
 document.addEventListener('DOMContentLoaded', () => {
   nukeWorkers();
 });
+
+if (document.readyState === 'interactive') {
+  nukeWorkers();
+}

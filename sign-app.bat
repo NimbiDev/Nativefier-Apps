@@ -39,9 +39,9 @@ IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
 start sign.bat
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -49,19 +49,21 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 
 GOTO MENU
 :HULU
 cd %systemdrive%\Native-Apps\apps\hulu
 start sign.bat
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -69,19 +71,21 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 
 GOTO MENU
 :HBO-MAX
 cd %systemdrive%\Native-Apps\apps\hbo-max
 start sign.bat
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -89,19 +93,21 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 
 GOTO MENU
 :DISNEY-PLUS
 cd %systemdrive%\Native-Apps\apps\disney-plus
 start sign.bat
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -109,19 +115,21 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 
 GOTO MENU
 :CONTOUR-TV
 cd %systemdrive%\Native-Apps\apps\contour-tv
 start sign.bat
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -129,19 +137,21 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 
 GOTO MENU
 :AMAZON-MUSIC
 cd %systemdrive%\Native-Apps\apps\amazon-music
 start sign.bat
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -149,19 +159,21 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 
 GOTO MENU
 :PRIME-VIDEO
 cd %systemdrive%\Native-Apps\apps\prime-video
 start sign.bat
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -169,19 +181,21 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 
 GOTO MENU
 :SPOTIFY-WEB-PLAYER
 cd %systemdrive%\Native-Apps\apps\spotify-web-player
 start sign.bat
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -189,18 +203,20 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 
 :SIRIUS-XM
 cd %systemdrive%\Native-Apps\apps\sirius-xm
 start sign.bat
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -208,17 +224,19 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 
 GOTO MENU
 :EXIT-MENU
-TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
+Mode con:cols=60 lines=7
 Title Native App Compiler
 ::::::::::::::::::::::::::::
 ::FINISH
@@ -226,9 +244,11 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
-ECHO         ****************************************
-ECHO               Finished Signing %app_title%
-ECHO         ****************************************
+ECHO         ********************************************
+ECHO         *         Native App Compiler              *
+ECHO         ********************************************
 echo Successfully recieived digital signature for %app_title%
-TIMEOUT /T 03 /NUL
+ECHO.
+PAUSE
+
 

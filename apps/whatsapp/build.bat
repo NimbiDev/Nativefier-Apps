@@ -1,15 +1,14 @@
 @echo off
-Set app_title=SiriusXM
+Set app_title=WhatsApp
 Set user_agent=firefox
-Set app_name="sirius-xm"
-Set website_url="https://player.siriusxm.com/"
-Set electron="15.3.5"
+Set app_name="whatsapp"
+Set website_url="https://web.whatsapp.com/"
+Set background_color="#333333"
 Set ico_file="bin\icon.ico"
-Set SiriusXM_darkMode="bin\SiriusXM-darkMode.js"
+Set serviceWorker="bin\serviceWorker.js"
 Set download_options="{\"saveAs\": true}"
 Set internal_urls=".*?"
 Set enable_tray="true"
-Set background_color="#333333"
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::
@@ -40,7 +39,7 @@ ECHO         *         Native App Compiler              *
 ECHO         ********************************************
 ECHO Building %app_title% ...
 ECHO.
-nativefier -u %user_agent% -n %app_name% %website_url% --ignore-gpu-blacklist --single-instance --tray %enable_tray% --enable-es3-apis --widevine --verbose --background-color %background_color% --internal-urls %internal_urls% --inject %SiriusXM_darkMode% --icon %ico_file% >>%debug_path% 2>&1
+nativefier -u %user_agent% -n %app_name% %website_url% --ignore-gpu-blacklist --single-instance --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --file-download-options %download_options% --inject %serviceWorker% --icon %ico_file% >>%debug_path% 2>&1
 PAUSE
 ::::::::::::::::::::::::::::
 ::
