@@ -20,11 +20,12 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
+ECHO.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
-ECHO.
-ECHO Requesting digitial signature for %app_title% ...
+ECHO          Requesting digitial signature for:
+ECHO          %app_title%
 python -m castlabs_evs.vmp sp --persistent %app_path% >>%debug_path% 2>>&1
 
 CLS & COLOR 0A & echo.
@@ -36,9 +37,10 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
+ECHO.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
-ECHO.
-echo Successfully recieived digital signature for %app_title%
+ECHO          Successfully recieived digital signature
+ECHO         for: %app_title%
 PAUSE

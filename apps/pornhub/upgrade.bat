@@ -23,7 +23,7 @@ Echo.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
-ECHO Updating %app_title% ...
+ECHO          Updating %app_title% ...
 
 ECHO.
 npm install -g nativefier >>%debug_path% 2>&1 && nativefier --verbose --upgrade %app_path% >>%debug_path% 2>&1

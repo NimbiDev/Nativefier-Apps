@@ -26,10 +26,10 @@ Title Native App Compiler
 CLS
 Echo.
 Echo.
+ECHO.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
-ECHO.
-ECHO Building %app_title% ...
+ECHO          Building: %app_title%
 
 nativefier -e %electron% -u %user_agent% -n %app_name% %website_url% --ignore-gpu-blacklist --single-instance --widevine --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --file-download-options %download_options% >>%debug_path% 2>>&1
