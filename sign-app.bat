@@ -39,46 +39,195 @@ IF %M%==0 GOTO EXIT-MENU
 :NETFLIX
 cd %systemdrive%\Native-Apps\apps\netflix
 start sign.bat
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL
+
 GOTO MENU
 :HULU
 cd %systemdrive%\Native-Apps\apps\hulu
 start sign.bat
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL
+
 GOTO MENU
 :HBO-MAX
 cd %systemdrive%\Native-Apps\apps\hbo-max
 start sign.bat
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL
+
 GOTO MENU
 :DISNEY-PLUS
 cd %systemdrive%\Native-Apps\apps\disney-plus
 start sign.bat
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL
+
 GOTO MENU
 :CONTOUR-TV
 cd %systemdrive%\Native-Apps\apps\contour-tv
 start sign.bat
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL
+
 GOTO MENU
 :AMAZON-MUSIC
 cd %systemdrive%\Native-Apps\apps\amazon-music
 start sign.bat
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL
+
 GOTO MENU
 :PRIME-VIDEO
 cd %systemdrive%\Native-Apps\apps\prime-video
 start sign.bat
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL
+
 GOTO MENU
 :SPOTIFY-WEB-PLAYER
 cd %systemdrive%\Native-Apps\apps\spotify-web-player
 start sign.bat
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL
+
 :SIRIUS-XM
 cd %systemdrive%\Native-Apps\apps\sirius-xm
 start sign.bat
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL
+
 GOTO MENU
 :EXIT-MENU
-EXIT /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Signing %app_title%
+ECHO         ****************************************
+echo Successfully recieived digital signature for %app_title%
+TIMEOUT /T 03 /NUL

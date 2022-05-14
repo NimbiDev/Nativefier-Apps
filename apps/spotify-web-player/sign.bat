@@ -8,7 +8,7 @@ For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (Set my_time=%%a-%%b)
 echo %my_date%_%my_time%
 
 Set debug_path="..\..\logs\%app_name%\%app_title%_%my_date%_%my_time%.log"
-Set app_path="..\..\apps\%app_name%\%app_name%-win32-x64"
+Set app_path="..\\..\\apps\\%app_name%\\%app_name%-win32-x64"
 
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
@@ -23,4 +23,18 @@ ECHO         ****************************************
 ECHO                Signing %app_title%
 ECHO         ****************************************
 python -m castlabs_evs.vmp sp  %app_path% >>%debug_path% 2>>&1
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Building %app_title%
+ECHO         ****************************************
+echo Successfully built %app_title%
+TIMEOUT /T 03 /NUL

@@ -29,4 +29,18 @@ ECHO         ****************************************
 ECHO                   Building %app_title%
 ECHO         ****************************************
 nativefier -e %electron% -u %user_agent% -n %app_name% %website_url% --ignore-gpu-blacklist --single-instance --widevine --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --file-download-options %download_options% --icon %ico_file%  >>%debug_path% 2>&1
-exit /b
+TIMEOUT /T 03 /NUL
+CLS & COLOR 0A & echo.
+Mode con:cols=60 lines=5
+Title Native App Compiler
+::::::::::::::::::::::::::::
+::FINISH
+::::::::::::::::::::::::::::
+CLS
+Echo.
+Echo.
+ECHO         ****************************************
+ECHO               Finished Building %app_title%
+ECHO         ****************************************
+echo Successfully built %app_title%
+TIMEOUT /T 03 /NUL
