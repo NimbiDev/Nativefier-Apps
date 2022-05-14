@@ -1,15 +1,15 @@
 @ECHO OFF
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=18
+Mode con:cols=60 lines=30
 Title Native App Compiler
 ::::::::::::::::::::::::::::
-::START
+::     MAIN MENU          ::
 ::::::::::::::::::::::::::::
-CLS
+
 :MENU
+CLS
+ECHO.
 ECHO.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
@@ -30,13 +30,10 @@ ECHO         *                                          *
 ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
-ECHO.
+
+SET /P M=Type the app letter then press ENTER:
 ::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
-SET /P M=Type the app number then press ENTER:
-::::::::::::::::::::::::::::
-::
+::       COMMANDS         ::
 ::::::::::::::::::::::::::::
 IF %M%==A GOTO NETFLIX
 IF %M%==B GOTO HULU
@@ -49,7 +46,7 @@ IF %M%==H GOTO SPOTIFY-WEB-PLAYER
 IF %M%==I GOTO SIRIUS-XM
 IF %M%==0 GOTO EXIT-MENU
 ::::::::::::::::::::::::::::
-::
+::      SUBCOMMANDS       ::
 ::::::::::::::::::::::::::::
 :NETFLIX
 cd ..\..\Native-Apps\apps\netflix
@@ -89,5 +86,5 @@ start sign.bat
 GOTO MENU
 :EXIT-MENU
 ::::::::::::::::::::::::::::
-::
+::        MENU END        ::
 ::::::::::::::::::::::::::::

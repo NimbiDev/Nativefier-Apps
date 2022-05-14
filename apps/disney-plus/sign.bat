@@ -1,26 +1,16 @@
 @ECHO OFF
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 Set app_title=Disney Plus
 Set app_name="disney-plus"
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (Set my_date=%%c-%%a-%%b)
 For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (Set my_time=%%a-%%b)
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 echo %my_date%_%my_time%
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 Set debug_path="..\..\logs\%app_name%\%app_title%_%my_date%_%my_time%.log"
 Set app_path="..\\..\\apps\\%app_name%\\%app_name%-win32-x64"
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=7
 Title Native App Compiler
@@ -36,9 +26,7 @@ ECHO         ********************************************
 ECHO.
 ECHO Requesting digitial signature for %app_title% ...
 python -m castlabs_evs.vmp sp --persistent %app_path% >>%debug_path% 2>>&1
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=7
 Title Native App Compiler
@@ -54,6 +42,3 @@ ECHO         ********************************************
 ECHO.
 echo Successfully recieived digital signature for %app_title%
 PAUSE
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::

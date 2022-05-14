@@ -1,7 +1,5 @@
 @ECHO OFF
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 Set app_title=Spotify
 Set app_name="spotify-web-player"
 

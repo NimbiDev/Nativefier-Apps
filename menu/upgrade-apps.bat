@@ -1,19 +1,14 @@
 @ECHO OFF
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
-Set Script_Title=Native App Compiler
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=30
 Title Native App Compiler
 ::::::::::::::::::::::::::::
-::START
+::     MAIN MENU          ::
 ::::::::::::::::::::::::::::
 :MENU
 CLS
+ECHO.
 ECHO.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
@@ -23,16 +18,16 @@ ECHO         *  A - DRM Apps                            *
 ECHO         *  B - Non DRM Apps                        *
 ECHO         *  C - Games                               *
 ECHO         *  D - Adult                               *
-ECHO         *  0 - Exit                                *
 ECHO         *                                          *
 ECHO         ********************************************
-ECHO.
+ECHO         *                                          *
+ECHO         *  0 - Main Menu                           *
+ECHO         *                                          *
+ECHO         ********************************************
+
+SET /P MENU=Type the app letter then press ENTER:
 ::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
-SET /P MENU=Type the number then press ENTER:
-::::::::::::::::::::::::::::
-::
+::       COMMANDS         ::
 ::::::::::::::::::::::::::::
 IF %MENU%==A GOTO DRM
 IF %MENU%==B GOTO NODRM
@@ -40,10 +35,11 @@ IF %MENU%==C GOTO GAMING
 IF %MENU%==D GOTO ADULT
 IF %MENU%==0 EXIT
 ::::::::::::::::::::::::::::
-::
+::      DRM MENU          ::
 ::::::::::::::::::::::::::::
 :DRM
 CLS
+ECHO.
 ECHO.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
@@ -64,13 +60,10 @@ ECHO         *                                          *
 ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
-ECHO.
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 SET /P DRM=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
-::
+::       COMMANDS         ::
 ::::::::::::::::::::::::::::
 IF %DRM%==A GOTO NETFLIX
 IF %DRM%==B GOTO HULU
@@ -83,7 +76,7 @@ IF %DRM%==H GOTO SPOTIFY-WEB-PLAYER
 IF %DRM%==I GOTO SIRIUS-XM
 IF %DRM%==0 GOTO MENU
 ::::::::::::::::::::::::::::
-::
+::      SUBCOMMANDS       ::
 ::::::::::::::::::::::::::::
 :NETFLIX
 cd ..\..\Native-Apps\apps\netflix
@@ -121,7 +114,7 @@ cd ..\..\Native-Apps\apps\sirius-xm
 upgrade
 GOTO DRM
 ::::::::::::::::::::::::::::
-::
+::      NON-DRM MENU      ::
 ::::::::::::::::::::::::::::
 :NODRM
 CLS
@@ -142,12 +135,10 @@ ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
 ECHO.
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 SET /P NODRM=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
-::
+::       COMMANDS         ::
 ::::::::::::::::::::::::::::
 IF %NODRM%==A GOTO DEVIANTART
 IF %NODRM%==B GOTO VIRTUAL-CUSTOMS
@@ -156,7 +147,7 @@ IF %NODRM%==D GOTO PROTON-MAIL
 IF %NODRM%==E GOTO WHATSAPP
 IF %NODRM%==0 GOTO MENU
 ::::::::::::::::::::::::::::
-::
+::      SUBCOMMANDS       ::
 ::::::::::::::::::::::::::::
 :DEVIANTART
 cd ..\..\Native-Apps\apps\deviantart
@@ -179,7 +170,7 @@ cd ..\..\Native-Apps\apps\whatsapp
 upgrade
 GOTO NODRM
 ::::::::::::::::::::::::::::
-::
+::       GAME MENU        ::
 ::::::::::::::::::::::::::::
 :GAMING
 CLS
@@ -199,12 +190,10 @@ ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
 ECHO.
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 SET /P GAME=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
-::
+::       COMMANDS         ::
 ::::::::::::::::::::::::::::
 IF %GAME%==A GOTO ALL-BAD-CARDS
 IF %GAME%==B GOTO AMONG-US
@@ -212,7 +201,7 @@ IF %GAME%==C GOTO ROBLOX
 IF %GAME%==D GOTO PERFECT-WORLD
 IF %GAME%==0 GOTO MENU
 ::::::::::::::::::::::::::::
-::
+::      SUBCOMMANDS       ::
 ::::::::::::::::::::::::::::
 :ALL-BAD-CARDS
 cd ..\..\Native-Apps\apps\all-bad-cards
@@ -231,7 +220,7 @@ cd ..\..\Native-Apps\apps\perfect-world
 upgrade
 GOTO GAMING
 ::::::::::::::::::::::::::::
-::
+::      ADULT MENU        ::
 ::::::::::::::::::::::::::::
 :ADULT
 CLS
@@ -250,19 +239,17 @@ ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
 ECHO.
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 SET /P ADULT=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
-::
+::       COMMANDS         ::
 ::::::::::::::::::::::::::::
 IF %ADULT%==A GOTO ADULT-STREAMING
 IF %ADULT%==B GOTO ADULT-READING
 IF %ADULT%==C GOTO ADULT-GAMES
 IF %ADULT%==0 GOTO MENU
 ::::::::::::::::::::::::::::
-::
+:: ADULT STREAMING MENU   ::
 ::::::::::::::::::::::::::::
 :ADULT-STREAMING
 CLS
@@ -280,18 +267,16 @@ ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
 ECHO.
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 SET /P ADULT_STREAMING=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
-::
+::       COMMANDS         ::
 ::::::::::::::::::::::::::::
 IF %ADULT_STREAMING%==A GOTO PORNHUB
 IF %ADULT_STREAMING%==B GOTO HANIME-TV
 IF %ADULT_STREAMING%==0 GOTO MENU
 ::::::::::::::::::::::::::::
-::
+::      SUBCOMMANDS       ::
 ::::::::::::::::::::::::::::
 :PORNHUB
 cd ..\..\Native-Apps\apps\pornhub
@@ -302,7 +287,7 @@ cd ..\..\Native-Apps\apps\hanime-tv
 upgrade
 GOTO ADULT-STREAMING
 ::::::::::::::::::::::::::::
-::
+::   ADULT READING MENU   ::
 ::::::::::::::::::::::::::::
 :ADULT-READING
 CLS
@@ -319,24 +304,22 @@ ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
 ECHO.
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 SET /P ADULT_READING=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
-::
+::       COMMANDS         ::
 ::::::::::::::::::::::::::::
 IF %ADULT_READING%==A GOTO NHENTAI-NET
 IF %ADULT_READING%==0 GOTO MENU
 ::::::::::::::::::::::::::::
-::
+::      SUBCOMMANDS       ::
 ::::::::::::::::::::::::::::
 :NHENTAI-NET
 cd ..\..\Native-Apps\apps\nhentai-net
 upgrade
 GOTO ADULT-READING
 ::::::::::::::::::::::::::::
-::
+::    ADULT GAMES MENU    ::
 ::::::::::::::::::::::::::::
 :ADULT-GAMES
 CLS
@@ -354,18 +337,16 @@ ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
 ECHO.
-::::::::::::::::::::::::::::
-::
-::::::::::::::::::::::::::::
+
 SET /P ADULT_GAMES=Type the number then press ENTER:
 ::::::::::::::::::::::::::::
-::
+::       COMMANDS         ::
 ::::::::::::::::::::::::::::
 IF %ADULT_GAMES%==A GOTO CUNT-EMPIRE
 IF %ADULT_GAMES%==B GOTO QUEENS-BLADE-LB
 IF %ADULT_GAMES%==0 GOTO MENU
 ::::::::::::::::::::::::::::
-::
+::      SUBCOMMANDS       ::
 ::::::::::::::::::::::::::::
 :CUNT-EMPIRE
 cd ..\..\Native-Apps\apps\cunt-empire
@@ -376,5 +357,5 @@ cd ..\..\Native-Apps\apps\queens-blade-lb
 upgrade
 GOTO ADULT-GAMES
 ::::::::::::::::::::::::::::
-::
+::        MENU END        ::
 ::::::::::::::::::::::::::::
