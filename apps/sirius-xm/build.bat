@@ -1,10 +1,11 @@
 @echo off
-Set app_title=Disney Plus
-Set app_name="disney-plus"
-Set website_url="https://www.disneyplus.com/"
+Set app_title=SiriusXM
 Set user_agent=firefox
+Set app_name="sirius-xm"
+Set website_url="https://player.siriusxm.com/"
 Set electron="15.3.5"
 Set ico_file="bin\icon.ico"
+Set userstyle="bin\userstyle.js"
 Set download_options="{\"saveAs\": true}"
 Set internal_urls=".*?"
 Set enable_tray="true"
@@ -28,5 +29,5 @@ Echo.
 ECHO         ****************************************
 ECHO                   Building %app_title%
 ECHO         ****************************************
-nativefier -e %electron% -u %user_agent% -n %app_name% %website_url% --ignore-gpu-blacklist --single-instance --widevine --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --file-download-options %download_options% --icon %ico_file% >>%debug_path% 2>>&1
+nativefier -u %user_agent% -n %app_name% %website_url% --ignore-gpu-blacklist --single-instance --tray %enable_tray% --enable-es3-apis --widevine --verbose --background-color %background_color% --internal-urls %internal_urls% --inject %userstyle% --icon %ico_file% >>%debug_path% 2>&1
 exit /b

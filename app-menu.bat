@@ -44,7 +44,8 @@ ECHO           4 - Disney Plus
 ECHO           5 - Amazon Music
 ECHO           6 - Prime Video
 ECHO           7 - Contour TV
-ECHO           8 - Spotify Web Player
+ECHO           8 - Spotify
+ECHO           9 - SiriusXM
 ECHO           0 - Main Menu
 ECHO.
 ECHO         ********************************************
@@ -63,6 +64,7 @@ IF %DRM%==5 GOTO AMAZON-MUSIC
 IF %DRM%==6 GOTO PRIME-VIDEO
 IF %DRM%==7 GOTO CONTOUR-TV
 IF %DRM%==8 GOTO SPOTIFY-WEB-PLAYER
+IF %DRM%==9 GOTO SIRIUS-XM
 IF %DRM%==0 GOTO MENU
 
 :NETFLIX
@@ -95,6 +97,9 @@ start build.bat
 GOTO DRM
 :SPOTIFY-WEB-PLAYER
 cd %systemdrive%\Native-Apps\apps\spotify-web-player
+start build.bat
+:SIRIUS-XM
+cd %systemdrive%\Native-Apps\apps\sirius-xm
 start build.bat
 GOTO DRM
 

@@ -1,6 +1,6 @@
 @echo off
-Set app_title=Hulu
-Set app_name="hulu"
+Set app_title=SiriusXM
+Set app_name="sirius-xm"
 
 For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (Set my_date=%%c-%%a-%%b)
 For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (Set my_time=%%a-%%b)
@@ -21,5 +21,5 @@ Echo.
 ECHO         ****************************************
 ECHO                   Signing %app_title%
 ECHO         ****************************************
-python -m castlabs_evs.vmp sp  %app_path% >>%debug_path% 2>>&1
+python -m castlabs_evs.vmp sp %app_path% >>%debug_path% 2>>&1
 exit /b
