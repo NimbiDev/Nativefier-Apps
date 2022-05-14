@@ -1,4 +1,7 @@
-@echo off
+@ECHO OFF
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 Set Script_Title=Native App Compiler
 ::::::::::::::::::::::::::::
 ::
@@ -59,7 +62,7 @@ ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
 ECHO         *  DRM apps muat be digitally signed after *
-ECHO         *  building via the sign-app file          *
+ECHO         *  upgradeing via the sign-app file          *
 ECHO         ********************************************
 ECHO.
 ::::::::::::::::::::::::::::
@@ -83,39 +86,39 @@ IF %DRM%==0 GOTO MENU
 ::
 ::::::::::::::::::::::::::::
 :NETFLIX
-cd %systemdrive%\Native-Apps\apps\netflix
-build
+cd ..\..\Native-Apps\apps\netflix
+upgrade
 GOTO DRM
 :HULU
-cd %systemdrive%\Native-Apps\apps\hulu
-build
+cd ..\..\Native-Apps\apps\hulu
+upgrade
 GOTO DRM
 :HBO-MAX
-cd %systemdrive%\Native-Apps\apps\hbo-max
-build
+cd ..\..\Native-Apps\apps\hbo-max
+upgrade
 GOTO DRM
 :DISNEY-PLUS
-cd %systemdrive%\Native-Apps\apps\disney-plus
-build
+cd ..\..\Native-Apps\apps\disney-plus
+upgrade
 GOTO DRM
 :AMAZON-MUSIC
-cd %systemdrive%\Native-Apps\apps\amazon-music
-build
+cd ..\..\Native-Apps\apps\amazon-music
+upgrade
 GOTO DRM
 :PRIME-VIDEO
-cd %systemdrive%\Native-Apps\apps\prime-video
-build
+cd ..\..\Native-Apps\apps\prime-video
+upgrade
 GOTO DRM
 :CONTOUR-TV
-cd %systemdrive%\Native-Apps\apps\contour-tv
-build
+cd ..\..\Native-Apps\apps\contour-tv
+upgrade
 GOTO DRM
 :SPOTIFY-WEB-PLAYER
-cd %systemdrive%\Native-Apps\apps\spotify-web-player
-build
+cd ..\..\Native-Apps\apps\spotify-web-player
+upgrade
 :SIRIUS-XM
-cd %systemdrive%\Native-Apps\apps\sirius-xm
-build
+cd ..\..\Native-Apps\apps\sirius-xm
+upgrade
 GOTO DRM
 ::::::::::::::::::::::::::::
 ::
@@ -153,24 +156,24 @@ IF %NODRM%==0 GOTO MENU
 ::
 ::::::::::::::::::::::::::::
 :DEVIANTART
-cd %systemdrive%\Native-Apps\apps\deviantart
-build
+cd ..\..\Native-Apps\apps\deviantart
+upgrade
 GOTO NODRM
 :VIRTUAL-CUSTOMS
-cd %systemdrive%\Native-Apps\apps\virtual-customs
-build
+cd ..\..\Native-Apps\apps\virtual-customs
+upgrade
 GOTO NODRM
 :WEBTOON
-cd %systemdrive%\Native-Apps\apps\webtoons
-build
+cd ..\..\Native-Apps\apps\webtoons
+upgrade
 GOTO NODRM
 :PROTON-MAIL
-cd %systemdrive%\Native-Apps\apps\proton-mail
-build
+cd ..\..\Native-Apps\apps\proton-mail
+upgrade
 GOTO NODRM
 :WHATSAPP
-cd %systemdrive%\Native-Apps\apps\whatsapp
-build
+cd ..\..\Native-Apps\apps\whatsapp
+upgrade
 GOTO NODRM
 ::::::::::::::::::::::::::::
 ::
@@ -206,20 +209,20 @@ IF %GAME%==0 GOTO MENU
 ::
 ::::::::::::::::::::::::::::
 :ALL-BAD-CARDS
-cd %systemdrive%\Native-Apps\apps\all-bad-cards
-build
+cd ..\..\Native-Apps\apps\all-bad-cards
+upgrade
 GOTO GAMING
 :AMONG-US
-cd %systemdrive%\Native-Apps\apps\among-us
-build
+cd ..\..\Native-Apps\apps\among-us
+upgrade
 GOTO GAMING
 :ROBLOX
-cd %systemdrive%\Native-Apps\apps\roblox
-build
+cd ..\..\Native-Apps\apps\roblox
+upgrade
 GOTO GAMES
 :PERFECT-WORLD
-cd %systemdrive%\Native-Apps\apps\perfect-world
-build
+cd ..\..\Native-Apps\apps\perfect-world
+upgrade
 GOTO GAMING
 ::::::::::::::::::::::::::::
 ::
@@ -279,12 +282,12 @@ IF %ADULT_STREAMING%==0 GOTO MENU
 ::
 ::::::::::::::::::::::::::::
 :PORNHUB
-cd %systemdrive%\Native-Apps\apps\pornhub
-build
+cd ..\..\Native-Apps\apps\pornhub
+upgrade
 GOTO ADULT-STREAMING
 :HANIME-TV
-cd %systemdrive%\Native-Apps\apps\hanime-tv
-build
+cd ..\..\Native-Apps\apps\hanime-tv
+upgrade
 GOTO ADULT-STREAMING
 ::::::::::::::::::::::::::::
 ::
@@ -314,8 +317,8 @@ IF %ADULT_READING%==0 GOTO MENU
 ::
 ::::::::::::::::::::::::::::
 :NHENTAI-NET
-cd %systemdrive%\Native-Apps\apps\nhentai-net
-build
+cd ..\..\Native-Apps\apps\nhentai-net
+upgrade
 GOTO ADULT-READING
 ::::::::::::::::::::::::::::
 ::
@@ -347,12 +350,12 @@ IF %ADULT_GAMES%==0 GOTO MENU
 ::
 ::::::::::::::::::::::::::::
 :CUNT-EMPIRE
-cd %systemdrive%\Native-Apps\apps\cunt-empire
-build
+cd ..\..\Native-Apps\apps\cunt-empire
+upgrade
 GOTO ADULT-GAMES
 :QUEENS-BLADE-LB
-cd %systemdrive%\Native-Apps\apps\queens-blade-lb
-build
+cd ..\..\Native-Apps\apps\queens-blade-lb
+upgrade
 GOTO ADULT-GAMES
 ::::::::::::::::::::::::::::
 ::

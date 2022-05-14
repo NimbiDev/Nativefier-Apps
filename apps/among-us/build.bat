@@ -1,4 +1,7 @@
-@echo off
+@ECHO OFF
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 Set app_title=AmongUs
 Set app_name="among-us"
 Set user_agent=firefox
@@ -36,8 +39,11 @@ Echo.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
-ECHO Building %app_title% ...
 ECHO.
+ECHO Building %app_title% ...
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 nativefier -u %user_agent% -n %app_name% %website_url% --ignore-gpu-blacklist --single-instance --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --icon %ico_file% >>%debug_path% 2>&1
 PAUSE
 ::::::::::::::::::::::::::::

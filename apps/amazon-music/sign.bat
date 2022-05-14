@@ -1,4 +1,7 @@
-@echo off
+@ECHO OFF
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 Set app_title=Amazon Music
 Set app_name="amazon-music"
 ::::::::::::::::::::::::::::
@@ -30,9 +33,9 @@ Echo.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
-ECHO Requesting digitial signature for %app_title% ...
 ECHO.
-python -m castlabs_evs.vmp sp %app_path% >>%debug_path% 2>>&1
+ECHO Requesting digitial signature for %app_title% ...
+python -m castlabs_evs.vmp sp --persistent %app_path% >>%debug_path% 2>>&1
 ::::::::::::::::::::::::::::
 ::
 ::::::::::::::::::::::::::::

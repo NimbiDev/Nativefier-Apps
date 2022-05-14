@@ -1,6 +1,10 @@
-@echo off
+@ECHO OFF
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 Set app_title=WEBTOONS
 Set app_name="webtoons"
+Set user_agent=firefox
 Set website_url="https://www.webtoons.com/"
 Set user_agent=firefox
 Set background_color="#333333"
@@ -35,8 +39,11 @@ Echo.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
-ECHO Building %app_title% ...
 ECHO.
+ECHO Building %app_title% ...
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 nativefier -u %user_agent% -n %app_name% %website_url% --ignore-gpu-blacklist --single-instance --tray %enable_tray% --enable-es3-apis --verbose --background-color %background_color% --internal-urls %internal_urls% --file-download-options %download_options% >>%debug_path% 2>>&1
 PAUSE
 ::::::::::::::::::::::::::::

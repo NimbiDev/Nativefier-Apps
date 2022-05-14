@@ -1,7 +1,10 @@
-@echo off
+@ECHO OFF
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 Set app_title=SiriusXM
-Set user_agent=firefox
 Set app_name="sirius-xm"
+Set user_agent=firefox
 Set website_url="https://player.siriusxm.com/"
 Set electron="15.3.5"
 Set ico_file="bin\icon.ico"
@@ -38,8 +41,11 @@ Echo.
 ECHO         ********************************************
 ECHO         *         Native App Compiler              *
 ECHO         ********************************************
-ECHO Building %app_title% ...
 ECHO.
+ECHO Building %app_title% ...
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 nativefier -u %user_agent% -n %app_name% %website_url% --ignore-gpu-blacklist --single-instance --tray %enable_tray% --enable-es3-apis --widevine --verbose --background-color %background_color% --internal-urls %internal_urls% --inject %SiriusXM_darkMode% --icon %ico_file% >>%debug_path% 2>&1
 PAUSE
 ::::::::::::::::::::::::::::
