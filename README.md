@@ -15,3 +15,4 @@
  * [Instructions](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Instructions)
  * [Apps List](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Native-Apps)
  * [Contributing Guidelines](https://github.com/DevCorner-Github/Nativefier-Apps/wiki/Contributing-Guidelines)
+ 

@@ -31,7 +31,13 @@ ECHO         *  0 - Main Menu                           *
 ECHO         *                                          *
 ECHO         ********************************************
 ECHO.
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 SET /P M=Type the app number then press ENTER:
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 IF %M%==A GOTO NETFLIX
 IF %M%==B GOTO HULU
 IF %M%==C GOTO HBO-MAX
@@ -42,6 +48,9 @@ IF %M%==G GOTO CONTOUR-TV
 IF %M%==H GOTO SPOTIFY-WEB-PLAYER
 IF %M%==I GOTO SIRIUS-XM
 IF %M%==0 GOTO EXIT-MENU
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
 :NETFLIX
 cd ..\..\Native-Apps\apps\netflix
 start sign.bat
@@ -79,5 +88,6 @@ cd ..\..\Native-Apps\apps\sirius-xm
 start sign.bat
 GOTO MENU
 :EXIT-MENU
-
-
+::::::::::::::::::::::::::::
+::
+::::::::::::::::::::::::::::
