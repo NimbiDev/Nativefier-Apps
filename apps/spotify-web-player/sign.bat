@@ -24,17 +24,4 @@ ECHO                Signing %app_title%
 ECHO         ****************************************
 python -m castlabs_evs.vmp sp  %app_path% >>%debug_path% 2>>&1
 TIMEOUT /T 03 /NUL
-CLS & COLOR 0A & echo.
-Mode con:cols=60 lines=5
-Title Native App Compiler
-::::::::::::::::::::::::::::
-::FINISH
-::::::::::::::::::::::::::::
-CLS
-Echo.
-Echo.
-ECHO         ****************************************
-ECHO               Finished Building %app_title%
-ECHO         ****************************************
-echo Successfully built %app_title%
-TIMEOUT /T 03 /NUL
+

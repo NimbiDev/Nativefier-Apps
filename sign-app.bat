@@ -40,6 +40,7 @@ IF %M%==0 GOTO EXIT-MENU
 cd %systemdrive%\Native-Apps\apps\netflix
 start sign.bat
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -60,6 +61,7 @@ GOTO MENU
 cd %systemdrive%\Native-Apps\apps\hulu
 start sign.bat
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -80,6 +82,7 @@ GOTO MENU
 cd %systemdrive%\Native-Apps\apps\hbo-max
 start sign.bat
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -100,6 +103,7 @@ GOTO MENU
 cd %systemdrive%\Native-Apps\apps\disney-plus
 start sign.bat
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -120,6 +124,7 @@ GOTO MENU
 cd %systemdrive%\Native-Apps\apps\contour-tv
 start sign.bat
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -140,6 +145,7 @@ GOTO MENU
 cd %systemdrive%\Native-Apps\apps\amazon-music
 start sign.bat
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -160,6 +166,7 @@ GOTO MENU
 cd %systemdrive%\Native-Apps\apps\prime-video
 start sign.bat
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -180,6 +187,7 @@ GOTO MENU
 cd %systemdrive%\Native-Apps\apps\spotify-web-player
 start sign.bat
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -199,6 +207,7 @@ TIMEOUT /T 03 /NUL
 cd %systemdrive%\Native-Apps\apps\sirius-xm
 start sign.bat
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -217,6 +226,7 @@ TIMEOUT /T 03 /NUL
 GOTO MENU
 :EXIT-MENU
 TIMEOUT /T 03 /NUL
+
 CLS & COLOR 0A & echo.
 Mode con:cols=60 lines=5
 Title Native App Compiler
@@ -231,3 +241,4 @@ ECHO               Finished Signing %app_title%
 ECHO         ****************************************
 echo Successfully recieived digital signature for %app_title%
 TIMEOUT /T 03 /NUL
+

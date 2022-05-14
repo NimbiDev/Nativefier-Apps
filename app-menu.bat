@@ -209,7 +209,7 @@ ECHO                   %NAME%
 ECHO         ********************************************
 ECHO.
 ECHO           1 - Pornhub
-ECHO           2 - hanime.tv
+ECHO           2 - hanime
 ECHO           0 - Main Menu
 ECHO.
 ECHO         ********************************************
@@ -237,7 +237,7 @@ ECHO         ********************************************
 ECHO                   %NAME%
 ECHO         ********************************************
 ECHO.
-ECHO           1 - nhentai.net
+ECHO           1 - nhentai
 ECHO           0 - Main Menu
 ECHO.
 ECHO         ********************************************
